@@ -122,16 +122,68 @@ func jsonSerializationPrinting(file: URL) {
         
         Task {
             // Lets start with clothes
-            var shirtsOwn = ""
-            var shirtsDontOwn = ""
-            var clothesKindIds: Set<String> = ["Tops"]
+            var ownItems: [String: [String]] = [:]
+            var dontOwnItems: [String: [String]] = [:]
             var clothesProvider = ClothesProviderFile(fileURL: Bundle.main.url(forResource: "Clothes", withExtension: "json")!)
             let clothes = try await clothesProvider.fetchClothes(parameters: ClothesRequestParameters())
+            for cloth in clothes {
+                //print(cloth)
+                let catalogItem = catalog.items!.first { cloth.name.caseInsensitiveCompare($0.label!) == .orderedSame }
+                //print(catalogItem)
+                if let catalogItem = catalogItem {
+                    // The item exists
+                    let kind = cloth.category.rawValue
+                    var itemList = ownItems[kind, default: [String]()]
+                    if cloth.totalVariations > 0 {
+                        for clothVariation in cloth.variations {
+                            var shouldAddToOwn = false
+                            for catalogItemVariation in catalogItem.variations! {
+                                if catalogItemVariation.name?.caseInsensitiveCompare(clothVariation.variation) == .orderedSame {
+                                    shouldAddToOwn = true
+                                    break
+                                }
+                            }
+                            if shouldAddToOwn {
+                                itemList.append("\(cloth.name) (\(clothVariation.variation))")
+                            } else {
+                                var dontOwnItemList = dontOwnItems[kind, default: [String]()]
+                                dontOwnItemList.append("\(cloth.name) (\(clothVariation.variation))")
+                                dontOwnItems[kind] = dontOwnItemList
+                            }
+                        }
+//                        cloth.variations.forEach { clothVariation in
+//                                //itemList.append("\(cloth.name) (\($0.variation))")
+//                            for catalogItemVariation in catalogItem.variations! {
+//                                if clothVariation.variation.caseInsensitiveCompare(catalogItemVariation.name!) == .orderedSame {
+//                                    continue
+//                                }
+//                                itemList.append("\(cloth.name) (\(clothVariation.variation))")
+//                            }
+//                        }
+                    } else {
+                        itemList.append("\(cloth.name)")
+                    }
+                    ownItems[kind] = itemList
+                } else {
+                    // The item doesn't exist
+                    let kind = cloth.category.rawValue
+                    var itemList = dontOwnItems[kind, default: [String]()]
+                    if cloth.totalVariations > 0 {
+                        cloth.variations.forEach {
+                            itemList.append("\(cloth.name) (\($0.variation))")
+                        }
+                    } else {
+                        itemList.append("\(cloth.name)")
+                    }
+                    dontOwnItems[kind] = itemList
+                }
+            }
+            print("Boom")
 //            for catalogItem in catalog.items! {
 //                if catalogItem.kindId == "Tops" {
 //                    let item = clothes.first { $0.name == catalogItem.label! }!
 //                    if item.totalVariations == 0 {
-//                        
+//
 //                    }
 //                }
 //            }
