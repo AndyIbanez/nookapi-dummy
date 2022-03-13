@@ -55,6 +55,11 @@
 		6C50E95E27DE47BB00989B92 /* FurnitureHTTPTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C50E95D27DE47BB00989B92 /* FurnitureHTTPTask.swift */; };
 		6C50E96127DE481200989B92 /* FurnitureProviderFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C50E96027DE481200989B92 /* FurnitureProviderFile.swift */; };
 		6C50E96327DE484400989B92 /* FurnitureCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C50E96227DE484400989B92 /* FurnitureCodable.swift */; };
+		6C50E96627DE542000989B92 /* InteriorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C50E96527DE542000989B92 /* InteriorProtocol.swift */; };
+		6C50E96827DE547100989B92 /* InteriorProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C50E96727DE547100989B92 /* InteriorProvider.swift */; };
+		6C50E96C27DE54AE00989B92 /* InteriorProviderFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C50E96B27DE54AE00989B92 /* InteriorProviderFile.swift */; };
+		6C50E96E27DE55BC00989B92 /* InteriorCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C50E96D27DE55BC00989B92 /* InteriorCodable.swift */; };
+		6C50E97127DE571C00989B92 /* InteriorsHTTPDataTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C50E97027DE571C00989B92 /* InteriorsHTTPDataTask.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -107,6 +112,11 @@
 		6C50E95D27DE47BB00989B92 /* FurnitureHTTPTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FurnitureHTTPTask.swift; sourceTree = "<group>"; };
 		6C50E96027DE481200989B92 /* FurnitureProviderFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FurnitureProviderFile.swift; sourceTree = "<group>"; };
 		6C50E96227DE484400989B92 /* FurnitureCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FurnitureCodable.swift; sourceTree = "<group>"; };
+		6C50E96527DE542000989B92 /* InteriorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteriorProtocol.swift; sourceTree = "<group>"; };
+		6C50E96727DE547100989B92 /* InteriorProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteriorProvider.swift; sourceTree = "<group>"; };
+		6C50E96B27DE54AE00989B92 /* InteriorProviderFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteriorProviderFile.swift; sourceTree = "<group>"; };
+		6C50E96D27DE55BC00989B92 /* InteriorCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteriorCodable.swift; sourceTree = "<group>"; };
+		6C50E97027DE571C00989B92 /* InteriorsHTTPDataTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteriorsHTTPDataTask.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,8 +171,9 @@
 		6C50E8FA27D6466500989B92 /* ACAPI */ = {
 			isa = PBXGroup;
 			children = (
-				6C50E95427DE445500989B92 /* Furniture */,
+				6C50E96427DE540C00989B92 /* Interior */,
 				6C50E90E27D8EAE300989B92 /* Protocols */,
+				6C50E95427DE445500989B92 /* Furniture */,
 				6C50E8FB27D646FC00989B92 /* Clothes */,
 				6C50E90127D6495100989B92 /* NookAPIEnums.swift */,
 				6C50E90627D7941600989B92 /* NetworkExecutor.swift */,
@@ -335,6 +346,42 @@
 			path = File;
 			sourceTree = "<group>";
 		};
+		6C50E96427DE540C00989B92 /* Interior */ = {
+			isa = PBXGroup;
+			children = (
+				6C50E96927DE548300989B92 /* Implementations */,
+				6C50E96527DE542000989B92 /* InteriorProtocol.swift */,
+				6C50E96727DE547100989B92 /* InteriorProvider.swift */,
+			);
+			path = Interior;
+			sourceTree = "<group>";
+		};
+		6C50E96927DE548300989B92 /* Implementations */ = {
+			isa = PBXGroup;
+			children = (
+				6C50E96F27DE56F400989B92 /* Networking */,
+				6C50E96A27DE548900989B92 /* File */,
+			);
+			path = Implementations;
+			sourceTree = "<group>";
+		};
+		6C50E96A27DE548900989B92 /* File */ = {
+			isa = PBXGroup;
+			children = (
+				6C50E96B27DE54AE00989B92 /* InteriorProviderFile.swift */,
+				6C50E96D27DE55BC00989B92 /* InteriorCodable.swift */,
+			);
+			path = File;
+			sourceTree = "<group>";
+		};
+		6C50E96F27DE56F400989B92 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				6C50E97027DE571C00989B92 /* InteriorsHTTPDataTask.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -421,6 +468,7 @@
 			files = (
 				6C50E92B27DD257500989B92 /* ItemAvailabilityOpenInitializer.swift in Sources */,
 				6C50E95327DD9F0300989B92 /* ClothesProviderFile.swift in Sources */,
+				6C50E96E27DE55BC00989B92 /* InteriorCodable.swift in Sources */,
 				6C50E91127D8EE7E00989B92 /* ItemBuyProtocol.swift in Sources */,
 				6C50E92D27DD259F00989B92 /* ItemBuyOpenInitializer.swift in Sources */,
 				6C50E90B27D8E4EB00989B92 /* ClothesProtocol.swift in Sources */,
@@ -437,10 +485,14 @@
 				6C50E95E27DE47BB00989B92 /* FurnitureHTTPTask.swift in Sources */,
 				6C50E91727DAB51900989B92 /* ItemAvailabilityCodable.swift in Sources */,
 				6C50E91327D91F4000989B92 /* ItemVariationProtocol.swift in Sources */,
+				6C50E96627DE542000989B92 /* InteriorProtocol.swift in Sources */,
 				6C50E8ED27D6437C00989B92 /* nookapiApp.swift in Sources */,
 				6C50E91D27DB88DD00989B92 /* ClothesHTTPTask.swift in Sources */,
 				6C50E91B27DAB6A200989B92 /* ItemVariationCodable.swift in Sources */,
+				6C50E96827DE547100989B92 /* InteriorProvider.swift in Sources */,
+				6C50E97127DE571C00989B92 /* InteriorsHTTPDataTask.swift in Sources */,
 				6C50E91F27DB8BF200989B92 /* NookAPIProtocols.swift in Sources */,
+				6C50E96C27DE54AE00989B92 /* InteriorProviderFile.swift in Sources */,
 				6C50E92727DD22D400989B92 /* ClothesProviderOpenInitializer.swift in Sources */,
 				6C50E8FF27D6473900989B92 /* ClothesEnums.swift in Sources */,
 				6C50E90427D66EF900989B92 /* ClothesProviderNetworking.swift in Sources */,
