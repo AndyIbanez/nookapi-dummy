@@ -189,11 +189,17 @@ func jsonSerializationPrinting(file: URL) {
                                     break
                                 }
                             }
+                            let itemToAdd = "\(item.name) (\(itemVariation.variation))"
                             if shouldAddToOwn {
-                                itemList.append("\(item.name) (\(itemVariation.variation))")
+                                if !itemList.contains(itemToAdd) {
+                                    itemList.append(itemToAdd)
+                                }
+                                ownItems[kind] = itemList
                             } else {
                                 var dontOwnItemList = dontOwnItems[kind, default: [String]()]
-                                dontOwnItemList.append("\(item.name) (\(itemVariation.variation))")
+                                if !dontOwnItemList.contains(itemToAdd) {
+                                    dontOwnItemList.append(itemToAdd)
+                                }
                                 dontOwnItems[kind] = dontOwnItemList
                             }
                         }
@@ -207,7 +213,10 @@ func jsonSerializationPrinting(file: URL) {
                     var itemList = dontOwnItems[kind, default: [String]()]
                     if item.totalVariations > 0 {
                         item.variations.forEach {
-                            itemList.append("\(item.name) (\($0.variation))")
+                            let itemToAdd = "\(item.name) (\($0.variation))"
+                            if !itemList.contains(itemToAdd) {
+                                itemList.append(itemToAdd)
+                            }
                         }
                     } else {
                         itemList.append("\(item.name)")
@@ -216,10 +225,10 @@ func jsonSerializationPrinting(file: URL) {
                 }
             }
             
-            // PhotosPosters
-            let photoPosterProvider = PhotoPosterProviderFile(fileURL: Bundle.main.url(forResource: "PhotosPosters", withExtension: "json")!)
-            let photosPosters = try await photoPosterProvider.fetchPhotoPosters(parameters: PhotoPostersRequestParameters())
-            for item in photosPosters {
+            // Interiors
+            let interiorsProvider = InteriorProviderFile(fileURL: Bundle.main.url(forResource: "Interior", withExtension: "json")!)
+            let interiors = try await interiorsProvider.fetchInteriors(parameters: InteriorsRequestParameters())
+            for item in interiors {
                 //print(cloth)
                 let catalogItem = catalog.items!.first { item.name.caseInsensitiveCompare($0.label!) == .orderedSame }
                 //print(catalogItem)
@@ -227,44 +236,91 @@ func jsonSerializationPrinting(file: URL) {
                     // The item exists
                     let kind = item.category.rawValue
                     var itemList = ownItems[kind, default: [String]()]
-                    if item.variations.count > 0 {
-                        for itemVariation in item.variations {
-                            var shouldAddToOwn = false
-                            print("catalog item name \(item.name)")
-                            for catalogItemVariation in catalogItem.variations! {
-                                if catalogItemVariation.name!.caseInsensitiveCompare(itemVariation.variation) == .orderedSame {
-                                    shouldAddToOwn = true
-                                    break
-                                }
-                            }
-                            if shouldAddToOwn {
-                                itemList.append("\(item.name) (\(itemVariation.variation))")
-                            } else {
-                                var dontOwnItemList = dontOwnItems[kind, default: [String]()]
-                                dontOwnItemList.append("\(item.name) (\(itemVariation.variation))")
-                                dontOwnItems[kind] = dontOwnItemList
-                            }
-                        }
-                    } else {
-                        itemList.append("\(item.name)")
-                    }
+                    itemList.append("\(item.name)")
                     ownItems[kind] = itemList
                 } else {
                     // The item doesn't exist
                     let kind = item.category.rawValue
                     var itemList = dontOwnItems[kind, default: [String]()]
-                    if item.variations.count > 0 {
-                        item.variations.forEach {
-                            itemList.append("\(item.name) (\($0.variation))")
-                        }
-                    } else {
-                        itemList.append("\(item.name)")
-                    }
+                    itemList.append("\(item.name)")
                     dontOwnItems[kind] = itemList
                 }
             }
             
+            // PhotosPosters
+//            let photoPosterProvider = PhotoPosterProviderFile(fileURL: Bundle.main.url(forResource: "PhotosPosters", withExtension: "json")!)
+//            let photosPosters = try await photoPosterProvider.fetchPhotoPosters(parameters: PhotoPostersRequestParameters())
+//            for item in photosPosters {
+//                //print(cloth)
+//                let catalogItem = catalog.items!.first { item.name.caseInsensitiveCompare($0.label!) == .orderedSame }
+//                //print(catalogItem)
+//                if let catalogItem = catalogItem {
+//                    // The item exists
+//                    let kind = item.category.rawValue
+//                    var itemList = ownItems[kind, default: [String]()]
+//                    if item.variations.count > 0 {
+//                        for itemVariation in item.variations {
+//                            var shouldAddToOwn = false
+//                            print("catalog item name \(item.name)")
+//                            for catalogItemVariation in catalogItem.variations! {
+//                                if catalogItemVariation.name!.caseInsensitiveCompare(itemVariation.variation) == .orderedSame {
+//                                    shouldAddToOwn = true
+//                                    break
+//                                }
+//                            }
+//                            if shouldAddToOwn {
+//                                itemList.append("\(item.name) (\(itemVariation.variation))")
+//                            } else {
+//                                var dontOwnItemList = dontOwnItems[kind, default: [String]()]
+//                                dontOwnItemList.append("\(item.name) (\(itemVariation.variation))")
+//                                dontOwnItems[kind] = dontOwnItemList
+//                            }
+//                        }
+//                    } else {
+//                        itemList.append("\(item.name)")
+//                    }
+//                    ownItems[kind] = itemList
+//                } else {
+//                    // The item doesn't exist
+//                    let kind = item.category.rawValue
+//                    var itemList = dontOwnItems[kind, default: [String]()]
+//                    if item.variations.count > 0 {
+//                        item.variations.forEach {
+//                            itemList.append("\(item.name) (\($0.variation))")
+//                        }
+//                    } else {
+//                        itemList.append("\(item.name)")
+//                    }
+//                    dontOwnItems[kind] = itemList
+//                }
+//            }
+            
             print("Boom")
+            
+            // Save them to files
+            let destination = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first!
+            let ownDestination = destination.appendingPathComponent("Own", isDirectory: true)
+            let dontOwnDestination = destination.appendingPathComponent("No Own", isDirectory: true)
+            try? FileManager.default.createDirectory(at: ownDestination, withIntermediateDirectories: true, attributes: nil)
+            try? FileManager.default.createDirectory(at: dontOwnDestination, withIntermediateDirectories: true, attributes: nil)
+            
+            print("Root path \(destination)")
+            
+            let ownFiles = ownItems.keys
+            for file in ownFiles {
+                let completeString = ownItems[file]!.reduce("") { $0.appending("\($1)\n") }
+                let destinationFile = ownDestination.appendingPathComponent("\(file).txt", isDirectory: false)
+                try completeString.write(to: destinationFile, atomically: true, encoding: .utf8)
+            }
+            
+            let dontOwnFiles = dontOwnItems.keys
+            
+            for file in dontOwnFiles {
+                let completeString = dontOwnItems[file]!.reduce("") { $0.appending("\($1)\n") }
+                let destinationFile = dontOwnDestination.appendingPathComponent("\(file).txt", isDirectory: false)
+                try completeString.write(to: destinationFile, atomically: true, encoding: .utf8)
+            }
+            
 //            for catalogItem in catalog.items! {
 //                if catalogItem.kindId == "Tops" {
 //                    let item = clothes.first { $0.name == catalogItem.label! }!
