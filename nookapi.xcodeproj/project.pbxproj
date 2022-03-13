@@ -60,6 +60,7 @@
 		6C50E96C27DE54AE00989B92 /* InteriorProviderFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C50E96B27DE54AE00989B92 /* InteriorProviderFile.swift */; };
 		6C50E96E27DE55BC00989B92 /* InteriorCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C50E96D27DE55BC00989B92 /* InteriorCodable.swift */; };
 		6C50E97127DE571C00989B92 /* InteriorsHTTPDataTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C50E97027DE571C00989B92 /* InteriorsHTTPDataTask.swift */; };
+		6C50E97327DE5BEA00989B92 /* InteriorEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C50E97227DE5BEA00989B92 /* InteriorEnums.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -117,6 +118,7 @@
 		6C50E96B27DE54AE00989B92 /* InteriorProviderFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteriorProviderFile.swift; sourceTree = "<group>"; };
 		6C50E96D27DE55BC00989B92 /* InteriorCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteriorCodable.swift; sourceTree = "<group>"; };
 		6C50E97027DE571C00989B92 /* InteriorsHTTPDataTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteriorsHTTPDataTask.swift; sourceTree = "<group>"; };
+		6C50E97227DE5BEA00989B92 /* InteriorEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteriorEnums.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -352,6 +354,7 @@
 				6C50E96927DE548300989B92 /* Implementations */,
 				6C50E96527DE542000989B92 /* InteriorProtocol.swift */,
 				6C50E96727DE547100989B92 /* InteriorProvider.swift */,
+				6C50E97227DE5BEA00989B92 /* InteriorEnums.swift */,
 			);
 			path = Interior;
 			sourceTree = "<group>";
@@ -502,6 +505,7 @@
 				6C50E95A27DE475600989B92 /* FurnitureProvider.swift in Sources */,
 				6C50E93627DD6A7D00989B92 /* NintendoCatalogParser.swift in Sources */,
 				6C50E96127DE481200989B92 /* FurnitureProviderFile.swift in Sources */,
+				6C50E97327DE5BEA00989B92 /* InteriorEnums.swift in Sources */,
 				6C50E96327DE484400989B92 /* FurnitureCodable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

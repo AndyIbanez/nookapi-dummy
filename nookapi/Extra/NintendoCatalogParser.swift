@@ -105,8 +105,8 @@ func jsonSerializationPrinting(file: URL) {
             let provider = InteriorProviderFile(fileURL: file)
             let items = try await provider.fetchInteriors(parameters: InteriorsRequestParameters())
             var set = Set<String>()
-            items.forEach { set.insert($0.category) }
-            set.forEach { print($0) }
+            //items.forEach { set.insert($0.category) }
+            //set.forEach { print($0) }
         } catch {
             print(error)
         }

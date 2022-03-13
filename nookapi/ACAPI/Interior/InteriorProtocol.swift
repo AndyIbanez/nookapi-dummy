@@ -15,7 +15,7 @@ protocol InteriorProtocol: Identifiable {
     var name: String { get }
     //var wikiURL: URL { get }
     var imageURL: URL { get }
-    var category: String { get } // Enum?
+    var category: InteriorCategory { get }
     var itemSeries: String { get }
     var itemSet: String { get }
     var hhaCategory: String { get }

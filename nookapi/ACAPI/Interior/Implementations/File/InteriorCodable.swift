@@ -15,7 +15,7 @@ struct InteriorCodable: InteriorProtocol, Codable {
     //let wikiURL: URL
     let name: String
     let imageURL: URL
-    let category: String
+    let category: InteriorCategory
     let itemSeries: String
     let itemSet: String
     let hhaCategory: String
@@ -60,7 +60,7 @@ struct InteriorCodable: InteriorProtocol, Codable {
         let container = try decoder.container(keyedBy: CodingKeys.self)
         self.name = try container.decode(String.self, forKey: .name)
         self.imageURL = try container.decode(URL.self, forKey: .imageURL)
-        self.category = try container.decode(String.self, forKey: .category)
+        self.category = try container.decode(InteriorCategory.self, forKey: .category)
         self.itemSeries = try container.decode(String.self, forKey: .itemSeries)
         self.itemSet = try container.decode(String.self, forKey: .itemSet)
         self.hhaCategory = try container.decode(String.self, forKey: .hhaCategory)
