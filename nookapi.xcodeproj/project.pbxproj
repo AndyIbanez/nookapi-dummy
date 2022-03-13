@@ -61,6 +61,11 @@
 		6C50E96E27DE55BC00989B92 /* InteriorCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C50E96D27DE55BC00989B92 /* InteriorCodable.swift */; };
 		6C50E97127DE571C00989B92 /* InteriorsHTTPDataTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C50E97027DE571C00989B92 /* InteriorsHTTPDataTask.swift */; };
 		6C50E97327DE5BEA00989B92 /* InteriorEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C50E97227DE5BEA00989B92 /* InteriorEnums.swift */; };
+		6C50E97827DE67C600989B92 /* PhotoPosterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C50E97727DE67C600989B92 /* PhotoPosterProtocol.swift */; };
+		6C50E97A27DE67D700989B92 /* PhotoPosterProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C50E97927DE67D700989B92 /* PhotoPosterProvider.swift */; };
+		6C50E97C27DE67F200989B92 /* PhotoPosterCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C50E97B27DE67F200989B92 /* PhotoPosterCodable.swift */; };
+		6C50E98027DE682B00989B92 /* PhotoPosterProviderFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C50E97F27DE682B00989B92 /* PhotoPosterProviderFile.swift */; };
+		6C50E98227DE689D00989B92 /* PhotosPostersHTTPDataTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C50E98127DE689D00989B92 /* PhotosPostersHTTPDataTask.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -119,6 +124,11 @@
 		6C50E96D27DE55BC00989B92 /* InteriorCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteriorCodable.swift; sourceTree = "<group>"; };
 		6C50E97027DE571C00989B92 /* InteriorsHTTPDataTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteriorsHTTPDataTask.swift; sourceTree = "<group>"; };
 		6C50E97227DE5BEA00989B92 /* InteriorEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteriorEnums.swift; sourceTree = "<group>"; };
+		6C50E97727DE67C600989B92 /* PhotoPosterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPosterProtocol.swift; sourceTree = "<group>"; };
+		6C50E97927DE67D700989B92 /* PhotoPosterProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPosterProvider.swift; sourceTree = "<group>"; };
+		6C50E97B27DE67F200989B92 /* PhotoPosterCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPosterCodable.swift; sourceTree = "<group>"; };
+		6C50E97F27DE682B00989B92 /* PhotoPosterProviderFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPosterProviderFile.swift; sourceTree = "<group>"; };
+		6C50E98127DE689D00989B92 /* PhotosPostersHTTPDataTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosPostersHTTPDataTask.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,6 +183,7 @@
 		6C50E8FA27D6466500989B92 /* ACAPI */ = {
 			isa = PBXGroup;
 			children = (
+				6C50E97427DE676E00989B92 /* PhotosPosters */,
 				6C50E96427DE540C00989B92 /* Interior */,
 				6C50E90E27D8EAE300989B92 /* Protocols */,
 				6C50E95427DE445500989B92 /* Furniture */,
@@ -385,6 +396,42 @@
 			path = Networking;
 			sourceTree = "<group>";
 		};
+		6C50E97427DE676E00989B92 /* PhotosPosters */ = {
+			isa = PBXGroup;
+			children = (
+				6C50E97527DE677C00989B92 /* Implementations */,
+				6C50E97727DE67C600989B92 /* PhotoPosterProtocol.swift */,
+				6C50E97927DE67D700989B92 /* PhotoPosterProvider.swift */,
+			);
+			path = PhotosPosters;
+			sourceTree = "<group>";
+		};
+		6C50E97527DE677C00989B92 /* Implementations */ = {
+			isa = PBXGroup;
+			children = (
+				6C50E97E27DE681B00989B92 /* File */,
+				6C50E97D27DE67F600989B92 /* Networking */,
+			);
+			path = Implementations;
+			sourceTree = "<group>";
+		};
+		6C50E97D27DE67F600989B92 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				6C50E97B27DE67F200989B92 /* PhotoPosterCodable.swift */,
+				6C50E98127DE689D00989B92 /* PhotosPostersHTTPDataTask.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		6C50E97E27DE681B00989B92 /* File */ = {
+			isa = PBXGroup;
+			children = (
+				6C50E97F27DE682B00989B92 /* PhotoPosterProviderFile.swift */,
+			);
+			path = File;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -475,14 +522,18 @@
 				6C50E91127D8EE7E00989B92 /* ItemBuyProtocol.swift in Sources */,
 				6C50E92D27DD259F00989B92 /* ItemBuyOpenInitializer.swift in Sources */,
 				6C50E90B27D8E4EB00989B92 /* ClothesProtocol.swift in Sources */,
+				6C50E97827DE67C600989B92 /* PhotoPosterProtocol.swift in Sources */,
 				6C50E90227D6495100989B92 /* NookAPIEnums.swift in Sources */,
 				6C50E8FD27D6472E00989B92 /* ClothesProvider.swift in Sources */,
 				6C50E95827DE473400989B92 /* FurnitureEnums.swift in Sources */,
 				6C50E92327DD06F200989B92 /* ClothesListView.swift in Sources */,
+				6C50E98227DE689D00989B92 /* PhotosPostersHTTPDataTask.swift in Sources */,
 				6C50E95627DE448A00989B92 /* FurnitureProtocol.swift in Sources */,
 				6C50E90D27D8E9DE00989B92 /* ItemAvailabilityProtocol.swift in Sources */,
 				6C50E90927D7956800989B92 /* HTTPTasks.swift in Sources */,
+				6C50E97A27DE67D700989B92 /* PhotoPosterProvider.swift in Sources */,
 				6C50E90727D7941600989B92 /* NetworkExecutor.swift in Sources */,
+				6C50E98027DE682B00989B92 /* PhotoPosterProviderFile.swift in Sources */,
 				6C50E8EF27D6437C00989B92 /* ContentView.swift in Sources */,
 				6C50E92F27DD289B00989B92 /* ItemVariationOpenInitializer.swift in Sources */,
 				6C50E95E27DE47BB00989B92 /* FurnitureHTTPTask.swift in Sources */,
@@ -497,6 +548,7 @@
 				6C50E91F27DB8BF200989B92 /* NookAPIProtocols.swift in Sources */,
 				6C50E96C27DE54AE00989B92 /* InteriorProviderFile.swift in Sources */,
 				6C50E92727DD22D400989B92 /* ClothesProviderOpenInitializer.swift in Sources */,
+				6C50E97C27DE67F200989B92 /* PhotoPosterCodable.swift in Sources */,
 				6C50E8FF27D6473900989B92 /* ClothesEnums.swift in Sources */,
 				6C50E90427D66EF900989B92 /* ClothesProviderNetworking.swift in Sources */,
 				6C50E91927DAB58B00989B92 /* ItemBuyCodable.swift in Sources */,
