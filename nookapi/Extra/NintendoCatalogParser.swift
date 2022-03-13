@@ -40,6 +40,15 @@ struct KeysWithPossibleTypes {
     }
 }
 
+struct VariationEquatable {
+    let itemName: String
+    let variationName: String
+    
+    var fullName: String {
+        return "\(itemName) (\(variationName))"
+    }
+}
+
 func jsonSerializationPrinting(file: URL) {
     let data = try! Data(contentsOf: file)
     let json = try! JSONSerialization.jsonObject(with: data, options: []) as? [String: Any]
@@ -99,17 +108,38 @@ func jsonSerializationPrinting(file: URL) {
     }
     print("------------")
     Task {
-        print("Interiors")
-        do {
-            let file = Bundle.main.url(forResource: "PhotosPosters", withExtension: "json")!
-            let provider = PhotoPosterProviderFile(fileURL: file)
-            let items = try await provider.fetchPhotoPosters(parameters: PhotoPostersRequestParameters())
-            var set = Set<String>()
-            //items.forEach { set.insert($0.customBodyPart) }
-            //set.forEach { print($0) }
-        } catch {
-            print(error)
+//        print("Interiors")
+//        do {
+//            let file = Bundle.main.url(forResource: "PhotosPosters", withExtension: "json")!
+//            let provider = PhotoPosterProviderFile(fileURL: file)
+//            let items = try await provider.fetchPhotoPosters(parameters: PhotoPostersRequestParameters())
+//            var set = Set<String>()
+//            //items.forEach { set.insert($0.customBodyPart) }
+//            //set.forEach { print($0) }
+//        } catch {
+//            print(error)
+//        }
+        
+        Task {
+            // Lets start with clothes
+            var shirtsOwn = ""
+            var shirtsDontOwn = ""
+            var clothesKindIds: Set<String> = ["Tops"]
+            var clothesProvider = ClothesProviderFile(fileURL: Bundle.main.url(forResource: "Clothes", withExtension: "json")!)
+            let clothes = try await clothesProvider.fetchClothes(parameters: ClothesRequestParameters())
+//            for catalogItem in catalog.items! {
+//                if catalogItem.kindId == "Tops" {
+//                    let item = clothes.first { $0.name == catalogItem.label! }!
+//                    if item.totalVariations == 0 {
+//                        
+//                    }
+//                }
+//            }
         }
+//        for catalogItem in catalog.items! {
+//            set.insert(catalogItem.kindId ?? "oops")
+//        }
+//        set.forEach { print($0) }
     }
     
     
