@@ -124,7 +124,7 @@ func jsonSerializationPrinting(file: URL) {
             // Lets start with clothes
             var ownItems: [String: [String]] = [:]
             var dontOwnItems: [String: [String]] = [:]
-            var clothesProvider = ClothesProviderFile(fileURL: Bundle.main.url(forResource: "Clothes", withExtension: "json")!)
+            let clothesProvider = ClothesProviderFile(fileURL: Bundle.main.url(forResource: "Clothes", withExtension: "json")!)
             let clothes = try await clothesProvider.fetchClothes(parameters: ClothesRequestParameters())
             for cloth in clothes {
                 //print(cloth)
@@ -151,15 +151,6 @@ func jsonSerializationPrinting(file: URL) {
                                 dontOwnItems[kind] = dontOwnItemList
                             }
                         }
-//                        cloth.variations.forEach { clothVariation in
-//                                //itemList.append("\(cloth.name) (\($0.variation))")
-//                            for catalogItemVariation in catalogItem.variations! {
-//                                if clothVariation.variation.caseInsensitiveCompare(catalogItemVariation.name!) == .orderedSame {
-//                                    continue
-//                                }
-//                                itemList.append("\(cloth.name) (\(clothVariation.variation))")
-//                            }
-//                        }
                     } else {
                         itemList.append("\(cloth.name)")
                     }
@@ -178,6 +169,101 @@ func jsonSerializationPrinting(file: URL) {
                     dontOwnItems[kind] = itemList
                 }
             }
+            // Furniture
+            let furnitureProvider = FurnitureProviderFile(fileURL: Bundle.main.url(forResource: "Furniture", withExtension: "json")!)
+            let furniture = try await furnitureProvider.fetchFurniture(parameters: FurnitureRequestParameters())
+            for item in furniture {
+                //print(cloth)
+                let catalogItem = catalog.items!.first { item.name.caseInsensitiveCompare($0.label!) == .orderedSame }
+                //print(catalogItem)
+                if let catalogItem = catalogItem {
+                    // The item exists
+                    let kind = item.category.rawValue
+                    var itemList = ownItems[kind, default: [String]()]
+                    if item.totalVariations > 0 {
+                        for itemVariation in item.variations {
+                            var shouldAddToOwn = false
+                            for catalogItemVariation in catalogItem.rebodyPattern! {
+                                if catalogItemVariation.name.caseInsensitiveCompare(itemVariation.variation) == .orderedSame {
+                                    shouldAddToOwn = true
+                                    break
+                                }
+                            }
+                            if shouldAddToOwn {
+                                itemList.append("\(item.name) (\(itemVariation.variation))")
+                            } else {
+                                var dontOwnItemList = dontOwnItems[kind, default: [String]()]
+                                dontOwnItemList.append("\(item.name) (\(itemVariation.variation))")
+                                dontOwnItems[kind] = dontOwnItemList
+                            }
+                        }
+                    } else {
+                        itemList.append("\(item.name)")
+                    }
+                    ownItems[kind] = itemList
+                } else {
+                    // The item doesn't exist
+                    let kind = item.category.rawValue
+                    var itemList = dontOwnItems[kind, default: [String]()]
+                    if item.totalVariations > 0 {
+                        item.variations.forEach {
+                            itemList.append("\(item.name) (\($0.variation))")
+                        }
+                    } else {
+                        itemList.append("\(item.name)")
+                    }
+                    dontOwnItems[kind] = itemList
+                }
+            }
+            
+            // PhotosPosters
+            let photoPosterProvider = PhotoPosterProviderFile(fileURL: Bundle.main.url(forResource: "PhotosPosters", withExtension: "json")!)
+            let photosPosters = try await photoPosterProvider.fetchPhotoPosters(parameters: PhotoPostersRequestParameters())
+            for item in photosPosters {
+                //print(cloth)
+                let catalogItem = catalog.items!.first { item.name.caseInsensitiveCompare($0.label!) == .orderedSame }
+                //print(catalogItem)
+                if let catalogItem = catalogItem {
+                    // The item exists
+                    let kind = item.category.rawValue
+                    var itemList = ownItems[kind, default: [String]()]
+                    if item.variations.count > 0 {
+                        for itemVariation in item.variations {
+                            var shouldAddToOwn = false
+                            print("catalog item name \(item.name)")
+                            for catalogItemVariation in catalogItem.variations! {
+                                if catalogItemVariation.name!.caseInsensitiveCompare(itemVariation.variation) == .orderedSame {
+                                    shouldAddToOwn = true
+                                    break
+                                }
+                            }
+                            if shouldAddToOwn {
+                                itemList.append("\(item.name) (\(itemVariation.variation))")
+                            } else {
+                                var dontOwnItemList = dontOwnItems[kind, default: [String]()]
+                                dontOwnItemList.append("\(item.name) (\(itemVariation.variation))")
+                                dontOwnItems[kind] = dontOwnItemList
+                            }
+                        }
+                    } else {
+                        itemList.append("\(item.name)")
+                    }
+                    ownItems[kind] = itemList
+                } else {
+                    // The item doesn't exist
+                    let kind = item.category.rawValue
+                    var itemList = dontOwnItems[kind, default: [String]()]
+                    if item.variations.count > 0 {
+                        item.variations.forEach {
+                            itemList.append("\(item.name) (\($0.variation))")
+                        }
+                    } else {
+                        itemList.append("\(item.name)")
+                    }
+                    dontOwnItems[kind] = itemList
+                }
+            }
+            
             print("Boom")
 //            for catalogItem in catalog.items! {
 //                if catalogItem.kindId == "Tops" {
