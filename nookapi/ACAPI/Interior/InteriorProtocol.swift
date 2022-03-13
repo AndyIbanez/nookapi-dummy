@@ -25,8 +25,8 @@ protocol InteriorProtocol: Identifiable {
     var versionAdded: GameVersion { get }
     var unlocked: Bool { get }
     var notes: String { get }
-    var gridWidth: Float { get }
-    var gridLength: Float { get }
+    var gridWidth: Float? { get }
+    var gridLength: Float? { get }
     var itemThemes: [String] { get }
     var colors: [ItemColor] { get }
     var availability: [ItemAvailabilityType] { get }
