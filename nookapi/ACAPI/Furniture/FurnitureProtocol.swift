@@ -15,15 +15,15 @@ protocol FurnitureProtocol: Identifiable {
     var id: UUID { get }
     var name: String { get }
     //var wikiURL: URL { get }
-    var category: String { get } // Enum?
-    var itemSeries: String { get } // Enum?
-    var itemSet: String { get } // Enum?
-    var hhaCategory: String { get } // Enum?
-    var tag: String { get } // Enum?
+    var category: FurnitureCategory { get }
+    var itemSeries: String { get }
+    var itemSet: String { get }
+    var hhaCategory: String { get }
+    var tag: String { get }
     var hhaBase: Int { get }
     var lucky: Bool { get }
-    var luckySeason: String { get } // Enum?
-    var sell: String { get }
+    var luckySeason: Seasonality { get }
+    var sell: Int { get }
     var totalVariations: Int { get }
     var totalPatterns: Int { get }
     var customizable: Bool { get }
@@ -39,7 +39,7 @@ protocol FurnitureProtocol: Identifiable {
     var gridWidth: Float { get }
     var gridLength: Float { get }
     var furnitureThemes: [String] { get } // Array Enum?
-    var functions: String { get } // Enum?
+    var functions: [String] { get } // Array Enum?
     var availability: [ItemAvailabilityType] { get }
     var buy: [ItemBuyType] { get }
     var variations: [ItemVariationType] { get }

@@ -83,6 +83,7 @@ enum Seasonality: String, Codable {
     case spring
     case summer
     case fall
+    case `none`
     
     init?(rawValue: String) {
         if rawValue.caseInsensitiveCompare("all year") == .orderedSame {
@@ -101,6 +102,6 @@ enum Seasonality: String, Codable {
             self = .fall
             return
         }
-        return nil
+        self = .none
     }
 }

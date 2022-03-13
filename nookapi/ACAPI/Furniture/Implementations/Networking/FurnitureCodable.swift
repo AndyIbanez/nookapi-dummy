@@ -15,15 +15,15 @@ struct FurnitureCodable: FurnitureProtocol, Codable {
     let id = UUID()
     let name: String
     //let wikiURL: URL
-    let category: String
+    let category: FurnitureCategory
     let itemSeries: String
     let itemSet: String
     let hhaCategory: String
     let tag: String
     let hhaBase: Int
     let lucky: Bool
-    let luckySeason: String
-    let sell: String
+    let luckySeason: Seasonality
+    let sell: Int
     let totalVariations: Int
     let totalPatterns: Int
     let customizable: Bool
@@ -39,7 +39,7 @@ struct FurnitureCodable: FurnitureProtocol, Codable {
     let gridWidth: Float
     let gridLength: Float
     let furnitureThemes: [String]
-    let functions: String
+    let functions: [String]
     let availability: [ItemAvailabilityType]
     let buy: [ItemBuyType]
     let variations: [ItemVariationType]
