@@ -11,6 +11,50 @@
 		6C50E8EF27D6437C00989B92 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C50E8EE27D6437C00989B92 /* ContentView.swift */; };
 		6C50E8F127D6438100989B92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C50E8F027D6438100989B92 /* Assets.xcassets */; };
 		6C50E8F427D6438100989B92 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C50E8F327D6438100989B92 /* Preview Assets.xcassets */; };
+		6C50E8FD27D6472E00989B92 /* ClothesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C50E8FC27D6472E00989B92 /* ClothesProvider.swift */; };
+		6C50E8FF27D6473900989B92 /* ClothesEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C50E8FE27D6473900989B92 /* ClothesEnums.swift */; };
+		6C50E90227D6495100989B92 /* NookAPIEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C50E90127D6495100989B92 /* NookAPIEnums.swift */; };
+		6C50E90427D66EF900989B92 /* ClothesProviderNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C50E90327D66EF900989B92 /* ClothesProviderNetworking.swift */; };
+		6C50E90727D7941600989B92 /* NetworkExecutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C50E90627D7941600989B92 /* NetworkExecutor.swift */; };
+		6C50E90927D7956800989B92 /* HTTPTasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C50E90827D7956800989B92 /* HTTPTasks.swift */; };
+		6C50E90B27D8E4EB00989B92 /* ClothesProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C50E90A27D8E4EB00989B92 /* ClothesProtocol.swift */; };
+		6C50E90D27D8E9DE00989B92 /* ItemAvailabilityProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C50E90C27D8E9DE00989B92 /* ItemAvailabilityProtocol.swift */; };
+		6C50E91127D8EE7E00989B92 /* ItemBuyProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C50E91027D8EE7E00989B92 /* ItemBuyProtocol.swift */; };
+		6C50E91327D91F4000989B92 /* ItemVariationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C50E91227D91F4000989B92 /* ItemVariationProtocol.swift */; };
+		6C50E91527DAB4C500989B92 /* ClothesCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C50E91427DAB4C500989B92 /* ClothesCodable.swift */; };
+		6C50E91727DAB51900989B92 /* ItemAvailabilityCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C50E91627DAB51900989B92 /* ItemAvailabilityCodable.swift */; };
+		6C50E91927DAB58B00989B92 /* ItemBuyCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C50E91827DAB58B00989B92 /* ItemBuyCodable.swift */; };
+		6C50E91B27DAB6A200989B92 /* ItemVariationCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C50E91A27DAB6A200989B92 /* ItemVariationCodable.swift */; };
+		6C50E91D27DB88DD00989B92 /* ClothesHTTPTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C50E91C27DB88DD00989B92 /* ClothesHTTPTask.swift */; };
+		6C50E91F27DB8BF200989B92 /* NookAPIProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C50E91E27DB8BF200989B92 /* NookAPIProtocols.swift */; };
+		6C50E92327DD06F200989B92 /* ClothesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C50E92227DD06F200989B92 /* ClothesListView.swift */; };
+		6C50E92727DD22D400989B92 /* ClothesProviderOpenInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C50E92627DD22D400989B92 /* ClothesProviderOpenInitializer.swift */; };
+		6C50E92B27DD257500989B92 /* ItemAvailabilityOpenInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C50E92A27DD257500989B92 /* ItemAvailabilityOpenInitializer.swift */; };
+		6C50E92D27DD259F00989B92 /* ItemBuyOpenInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C50E92C27DD259F00989B92 /* ItemBuyOpenInitializer.swift */; };
+		6C50E92F27DD289B00989B92 /* ItemVariationOpenInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C50E92E27DD289B00989B92 /* ItemVariationOpenInitializer.swift */; };
+		6C50E93127DD28E000989B92 /* ClothesOpenInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C50E93027DD28E000989B92 /* ClothesOpenInitializer.swift */; };
+		6C50E93427DD6A6B00989B92 /* My Catalog.json in Resources */ = {isa = PBXBuildFile; fileRef = 6C50E93327DD6A6B00989B92 /* My Catalog.json */; };
+		6C50E93627DD6A7D00989B92 /* NintendoCatalogParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C50E93527DD6A7D00989B92 /* NintendoCatalogParser.swift */; };
+		6C50E93827DD92A700989B92 /* Clothes.json in Resources */ = {isa = PBXBuildFile; fileRef = 6C50E93727DD92A700989B92 /* Clothes.json */; };
+		6C50E93A27DD93D000989B92 /* Furniture.json in Resources */ = {isa = PBXBuildFile; fileRef = 6C50E93927DD93D000989B92 /* Furniture.json */; };
+		6C50E93C27DD94C100989B92 /* Interior.json in Resources */ = {isa = PBXBuildFile; fileRef = 6C50E93B27DD94C100989B92 /* Interior.json */; };
+		6C50E93E27DD951D00989B92 /* PhotosPosters.json in Resources */ = {isa = PBXBuildFile; fileRef = 6C50E93D27DD951D00989B92 /* PhotosPosters.json */; };
+		6C50E94027DD957A00989B92 /* MiscItems.json in Resources */ = {isa = PBXBuildFile; fileRef = 6C50E93F27DD957A00989B92 /* MiscItems.json */; };
+		6C50E94227DD95F200989B92 /* Recipes.json in Resources */ = {isa = PBXBuildFile; fileRef = 6C50E94127DD95F200989B92 /* Recipes.json */; };
+		6C50E94427DD96F800989B92 /* FossilGroupsIndividualFossils.json in Resources */ = {isa = PBXBuildFile; fileRef = 6C50E94327DD96F800989B92 /* FossilGroupsIndividualFossils.json */; };
+		6C50E94627DD97B500989B92 /* Tools.json in Resources */ = {isa = PBXBuildFile; fileRef = 6C50E94527DD97B500989B92 /* Tools.json */; };
+		6C50E94827DD980C00989B92 /* Art.json in Resources */ = {isa = PBXBuildFile; fileRef = 6C50E94727DD980C00989B92 /* Art.json */; };
+		6C50E94A27DD987100989B92 /* Events.json in Resources */ = {isa = PBXBuildFile; fileRef = 6C50E94927DD987100989B92 /* Events.json */; };
+		6C50E94C27DD996600989B92 /* SeaCreatures.json in Resources */ = {isa = PBXBuildFile; fileRef = 6C50E94B27DD996600989B92 /* SeaCreatures.json */; };
+		6C50E94E27DD99A300989B92 /* Bugs.json in Resources */ = {isa = PBXBuildFile; fileRef = 6C50E94D27DD99A300989B92 /* Bugs.json */; };
+		6C50E95027DD9A1D00989B92 /* Fish.json in Resources */ = {isa = PBXBuildFile; fileRef = 6C50E94F27DD9A1D00989B92 /* Fish.json */; };
+		6C50E95327DD9F0300989B92 /* ClothesProviderFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C50E95227DD9F0300989B92 /* ClothesProviderFile.swift */; };
+		6C50E95627DE448A00989B92 /* FurnitureProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C50E95527DE448A00989B92 /* FurnitureProtocol.swift */; };
+		6C50E95827DE473400989B92 /* FurnitureEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C50E95727DE473400989B92 /* FurnitureEnums.swift */; };
+		6C50E95A27DE475600989B92 /* FurnitureProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C50E95927DE475600989B92 /* FurnitureProvider.swift */; };
+		6C50E95E27DE47BB00989B92 /* FurnitureHTTPTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C50E95D27DE47BB00989B92 /* FurnitureHTTPTask.swift */; };
+		6C50E96127DE481200989B92 /* FurnitureProviderFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C50E96027DE481200989B92 /* FurnitureProviderFile.swift */; };
+		6C50E96327DE484400989B92 /* FurnitureCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C50E96227DE484400989B92 /* FurnitureCodable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +63,50 @@
 		6C50E8EE27D6437C00989B92 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6C50E8F027D6438100989B92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6C50E8F327D6438100989B92 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6C50E8FC27D6472E00989B92 /* ClothesProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClothesProvider.swift; sourceTree = "<group>"; };
+		6C50E8FE27D6473900989B92 /* ClothesEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClothesEnums.swift; sourceTree = "<group>"; };
+		6C50E90127D6495100989B92 /* NookAPIEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NookAPIEnums.swift; sourceTree = "<group>"; };
+		6C50E90327D66EF900989B92 /* ClothesProviderNetworking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClothesProviderNetworking.swift; sourceTree = "<group>"; };
+		6C50E90627D7941600989B92 /* NetworkExecutor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkExecutor.swift; sourceTree = "<group>"; };
+		6C50E90827D7956800989B92 /* HTTPTasks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPTasks.swift; sourceTree = "<group>"; };
+		6C50E90A27D8E4EB00989B92 /* ClothesProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClothesProtocol.swift; sourceTree = "<group>"; };
+		6C50E90C27D8E9DE00989B92 /* ItemAvailabilityProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemAvailabilityProtocol.swift; sourceTree = "<group>"; };
+		6C50E91027D8EE7E00989B92 /* ItemBuyProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemBuyProtocol.swift; sourceTree = "<group>"; };
+		6C50E91227D91F4000989B92 /* ItemVariationProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemVariationProtocol.swift; sourceTree = "<group>"; };
+		6C50E91427DAB4C500989B92 /* ClothesCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClothesCodable.swift; sourceTree = "<group>"; };
+		6C50E91627DAB51900989B92 /* ItemAvailabilityCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemAvailabilityCodable.swift; sourceTree = "<group>"; };
+		6C50E91827DAB58B00989B92 /* ItemBuyCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemBuyCodable.swift; sourceTree = "<group>"; };
+		6C50E91A27DAB6A200989B92 /* ItemVariationCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemVariationCodable.swift; sourceTree = "<group>"; };
+		6C50E91C27DB88DD00989B92 /* ClothesHTTPTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClothesHTTPTask.swift; sourceTree = "<group>"; };
+		6C50E91E27DB8BF200989B92 /* NookAPIProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NookAPIProtocols.swift; sourceTree = "<group>"; };
+		6C50E92227DD06F200989B92 /* ClothesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClothesListView.swift; sourceTree = "<group>"; };
+		6C50E92627DD22D400989B92 /* ClothesProviderOpenInitializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClothesProviderOpenInitializer.swift; sourceTree = "<group>"; };
+		6C50E92A27DD257500989B92 /* ItemAvailabilityOpenInitializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemAvailabilityOpenInitializer.swift; sourceTree = "<group>"; };
+		6C50E92C27DD259F00989B92 /* ItemBuyOpenInitializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemBuyOpenInitializer.swift; sourceTree = "<group>"; };
+		6C50E92E27DD289B00989B92 /* ItemVariationOpenInitializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemVariationOpenInitializer.swift; sourceTree = "<group>"; };
+		6C50E93027DD28E000989B92 /* ClothesOpenInitializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClothesOpenInitializer.swift; sourceTree = "<group>"; };
+		6C50E93327DD6A6B00989B92 /* My Catalog.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "My Catalog.json"; sourceTree = "<group>"; };
+		6C50E93527DD6A7D00989B92 /* NintendoCatalogParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NintendoCatalogParser.swift; sourceTree = "<group>"; };
+		6C50E93727DD92A700989B92 /* Clothes.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Clothes.json; sourceTree = "<group>"; };
+		6C50E93927DD93D000989B92 /* Furniture.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Furniture.json; sourceTree = "<group>"; };
+		6C50E93B27DD94C100989B92 /* Interior.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Interior.json; sourceTree = "<group>"; };
+		6C50E93D27DD951D00989B92 /* PhotosPosters.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = PhotosPosters.json; sourceTree = "<group>"; };
+		6C50E93F27DD957A00989B92 /* MiscItems.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = MiscItems.json; sourceTree = "<group>"; };
+		6C50E94127DD95F200989B92 /* Recipes.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Recipes.json; sourceTree = "<group>"; };
+		6C50E94327DD96F800989B92 /* FossilGroupsIndividualFossils.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = FossilGroupsIndividualFossils.json; sourceTree = "<group>"; };
+		6C50E94527DD97B500989B92 /* Tools.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Tools.json; sourceTree = "<group>"; };
+		6C50E94727DD980C00989B92 /* Art.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Art.json; sourceTree = "<group>"; };
+		6C50E94927DD987100989B92 /* Events.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Events.json; sourceTree = "<group>"; };
+		6C50E94B27DD996600989B92 /* SeaCreatures.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = SeaCreatures.json; sourceTree = "<group>"; };
+		6C50E94D27DD99A300989B92 /* Bugs.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Bugs.json; sourceTree = "<group>"; };
+		6C50E94F27DD9A1D00989B92 /* Fish.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Fish.json; sourceTree = "<group>"; };
+		6C50E95227DD9F0300989B92 /* ClothesProviderFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClothesProviderFile.swift; sourceTree = "<group>"; };
+		6C50E95527DE448A00989B92 /* FurnitureProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FurnitureProtocol.swift; sourceTree = "<group>"; };
+		6C50E95727DE473400989B92 /* FurnitureEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FurnitureEnums.swift; sourceTree = "<group>"; };
+		6C50E95927DE475600989B92 /* FurnitureProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FurnitureProvider.swift; sourceTree = "<group>"; };
+		6C50E95D27DE47BB00989B92 /* FurnitureHTTPTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FurnitureHTTPTask.swift; sourceTree = "<group>"; };
+		6C50E96027DE481200989B92 /* FurnitureProviderFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FurnitureProviderFile.swift; sourceTree = "<group>"; };
+		6C50E96227DE484400989B92 /* FurnitureCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FurnitureCodable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +139,9 @@
 		6C50E8EB27D6437C00989B92 /* nookapi */ = {
 			isa = PBXGroup;
 			children = (
+				6C50E93227DD6A5900989B92 /* Extra */,
+				6C50E92027DD067F00989B92 /* Views */,
+				6C50E8FA27D6466500989B92 /* ACAPI */,
 				6C50E8EC27D6437C00989B92 /* nookapiApp.swift */,
 				6C50E8EE27D6437C00989B92 /* ContentView.swift */,
 				6C50E8F027D6438100989B92 /* Assets.xcassets */,
@@ -65,6 +156,183 @@
 				6C50E8F327D6438100989B92 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6C50E8FA27D6466500989B92 /* ACAPI */ = {
+			isa = PBXGroup;
+			children = (
+				6C50E95427DE445500989B92 /* Furniture */,
+				6C50E90E27D8EAE300989B92 /* Protocols */,
+				6C50E8FB27D646FC00989B92 /* Clothes */,
+				6C50E90127D6495100989B92 /* NookAPIEnums.swift */,
+				6C50E90627D7941600989B92 /* NetworkExecutor.swift */,
+				6C50E90827D7956800989B92 /* HTTPTasks.swift */,
+				6C50E91E27DB8BF200989B92 /* NookAPIProtocols.swift */,
+			);
+			path = ACAPI;
+			sourceTree = "<group>";
+		};
+		6C50E8FB27D646FC00989B92 /* Clothes */ = {
+			isa = PBXGroup;
+			children = (
+				6C50E90527D793FA00989B92 /* Implementations */,
+				6C50E8FC27D6472E00989B92 /* ClothesProvider.swift */,
+				6C50E8FE27D6473900989B92 /* ClothesEnums.swift */,
+				6C50E90A27D8E4EB00989B92 /* ClothesProtocol.swift */,
+			);
+			path = Clothes;
+			sourceTree = "<group>";
+		};
+		6C50E90527D793FA00989B92 /* Implementations */ = {
+			isa = PBXGroup;
+			children = (
+				6C50E95127DD9EEF00989B92 /* File */,
+				6C50E92527DD22C400989B92 /* Stub */,
+				6C50E92427DD228C00989B92 /* Networking */,
+			);
+			path = Implementations;
+			sourceTree = "<group>";
+		};
+		6C50E90E27D8EAE300989B92 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				6C50E90F27D8ECC200989B92 /* Implementations */,
+				6C50E90C27D8E9DE00989B92 /* ItemAvailabilityProtocol.swift */,
+				6C50E91027D8EE7E00989B92 /* ItemBuyProtocol.swift */,
+				6C50E91227D91F4000989B92 /* ItemVariationProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		6C50E90F27D8ECC200989B92 /* Implementations */ = {
+			isa = PBXGroup;
+			children = (
+				6C50E92927DD255E00989B92 /* OpenInitializer */,
+				6C50E92827DD22E100989B92 /* Codable */,
+			);
+			path = Implementations;
+			sourceTree = "<group>";
+		};
+		6C50E92027DD067F00989B92 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6C50E92127DD068500989B92 /* Clothes */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6C50E92127DD068500989B92 /* Clothes */ = {
+			isa = PBXGroup;
+			children = (
+				6C50E92227DD06F200989B92 /* ClothesListView.swift */,
+			);
+			path = Clothes;
+			sourceTree = "<group>";
+		};
+		6C50E92427DD228C00989B92 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				6C50E90327D66EF900989B92 /* ClothesProviderNetworking.swift */,
+				6C50E91427DAB4C500989B92 /* ClothesCodable.swift */,
+				6C50E91C27DB88DD00989B92 /* ClothesHTTPTask.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		6C50E92527DD22C400989B92 /* Stub */ = {
+			isa = PBXGroup;
+			children = (
+				6C50E92627DD22D400989B92 /* ClothesProviderOpenInitializer.swift */,
+				6C50E93027DD28E000989B92 /* ClothesOpenInitializer.swift */,
+			);
+			path = Stub;
+			sourceTree = "<group>";
+		};
+		6C50E92827DD22E100989B92 /* Codable */ = {
+			isa = PBXGroup;
+			children = (
+				6C50E91627DAB51900989B92 /* ItemAvailabilityCodable.swift */,
+				6C50E91827DAB58B00989B92 /* ItemBuyCodable.swift */,
+				6C50E91A27DAB6A200989B92 /* ItemVariationCodable.swift */,
+			);
+			path = Codable;
+			sourceTree = "<group>";
+		};
+		6C50E92927DD255E00989B92 /* OpenInitializer */ = {
+			isa = PBXGroup;
+			children = (
+				6C50E92A27DD257500989B92 /* ItemAvailabilityOpenInitializer.swift */,
+				6C50E92C27DD259F00989B92 /* ItemBuyOpenInitializer.swift */,
+				6C50E92E27DD289B00989B92 /* ItemVariationOpenInitializer.swift */,
+			);
+			path = OpenInitializer;
+			sourceTree = "<group>";
+		};
+		6C50E93227DD6A5900989B92 /* Extra */ = {
+			isa = PBXGroup;
+			children = (
+				6C50E93327DD6A6B00989B92 /* My Catalog.json */,
+				6C50E93527DD6A7D00989B92 /* NintendoCatalogParser.swift */,
+				6C50E93727DD92A700989B92 /* Clothes.json */,
+				6C50E93927DD93D000989B92 /* Furniture.json */,
+				6C50E93B27DD94C100989B92 /* Interior.json */,
+				6C50E93D27DD951D00989B92 /* PhotosPosters.json */,
+				6C50E93F27DD957A00989B92 /* MiscItems.json */,
+				6C50E94127DD95F200989B92 /* Recipes.json */,
+				6C50E94327DD96F800989B92 /* FossilGroupsIndividualFossils.json */,
+				6C50E94527DD97B500989B92 /* Tools.json */,
+				6C50E94727DD980C00989B92 /* Art.json */,
+				6C50E94927DD987100989B92 /* Events.json */,
+				6C50E94B27DD996600989B92 /* SeaCreatures.json */,
+				6C50E94D27DD99A300989B92 /* Bugs.json */,
+				6C50E94F27DD9A1D00989B92 /* Fish.json */,
+			);
+			path = Extra;
+			sourceTree = "<group>";
+		};
+		6C50E95127DD9EEF00989B92 /* File */ = {
+			isa = PBXGroup;
+			children = (
+				6C50E95227DD9F0300989B92 /* ClothesProviderFile.swift */,
+			);
+			path = File;
+			sourceTree = "<group>";
+		};
+		6C50E95427DE445500989B92 /* Furniture */ = {
+			isa = PBXGroup;
+			children = (
+				6C50E95B27DE478200989B92 /* Implementations */,
+				6C50E95527DE448A00989B92 /* FurnitureProtocol.swift */,
+				6C50E95727DE473400989B92 /* FurnitureEnums.swift */,
+				6C50E95927DE475600989B92 /* FurnitureProvider.swift */,
+			);
+			path = Furniture;
+			sourceTree = "<group>";
+		};
+		6C50E95B27DE478200989B92 /* Implementations */ = {
+			isa = PBXGroup;
+			children = (
+				6C50E95F27DE47F900989B92 /* File */,
+				6C50E95C27DE479200989B92 /* Networking */,
+			);
+			path = Implementations;
+			sourceTree = "<group>";
+		};
+		6C50E95C27DE479200989B92 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				6C50E95D27DE47BB00989B92 /* FurnitureHTTPTask.swift */,
+				6C50E96227DE484400989B92 /* FurnitureCodable.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		6C50E95F27DE47F900989B92 /* File */ = {
+			isa = PBXGroup;
+			children = (
+				6C50E96027DE481200989B92 /* FurnitureProviderFile.swift */,
+			);
+			path = File;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +395,20 @@
 			files = (
 				6C50E8F427D6438100989B92 /* Preview Assets.xcassets in Resources */,
 				6C50E8F127D6438100989B92 /* Assets.xcassets in Resources */,
+				6C50E93E27DD951D00989B92 /* PhotosPosters.json in Resources */,
+				6C50E94827DD980C00989B92 /* Art.json in Resources */,
+				6C50E94427DD96F800989B92 /* FossilGroupsIndividualFossils.json in Resources */,
+				6C50E93827DD92A700989B92 /* Clothes.json in Resources */,
+				6C50E94E27DD99A300989B92 /* Bugs.json in Resources */,
+				6C50E94C27DD996600989B92 /* SeaCreatures.json in Resources */,
+				6C50E94A27DD987100989B92 /* Events.json in Resources */,
+				6C50E94627DD97B500989B92 /* Tools.json in Resources */,
+				6C50E94027DD957A00989B92 /* MiscItems.json in Resources */,
+				6C50E95027DD9A1D00989B92 /* Fish.json in Resources */,
+				6C50E93A27DD93D000989B92 /* Furniture.json in Resources */,
+				6C50E93427DD6A6B00989B92 /* My Catalog.json in Resources */,
+				6C50E94227DD95F200989B92 /* Recipes.json in Resources */,
+				6C50E93C27DD94C100989B92 /* Interior.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +419,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C50E92B27DD257500989B92 /* ItemAvailabilityOpenInitializer.swift in Sources */,
+				6C50E95327DD9F0300989B92 /* ClothesProviderFile.swift in Sources */,
+				6C50E91127D8EE7E00989B92 /* ItemBuyProtocol.swift in Sources */,
+				6C50E92D27DD259F00989B92 /* ItemBuyOpenInitializer.swift in Sources */,
+				6C50E90B27D8E4EB00989B92 /* ClothesProtocol.swift in Sources */,
+				6C50E90227D6495100989B92 /* NookAPIEnums.swift in Sources */,
+				6C50E8FD27D6472E00989B92 /* ClothesProvider.swift in Sources */,
+				6C50E95827DE473400989B92 /* FurnitureEnums.swift in Sources */,
+				6C50E92327DD06F200989B92 /* ClothesListView.swift in Sources */,
+				6C50E95627DE448A00989B92 /* FurnitureProtocol.swift in Sources */,
+				6C50E90D27D8E9DE00989B92 /* ItemAvailabilityProtocol.swift in Sources */,
+				6C50E90927D7956800989B92 /* HTTPTasks.swift in Sources */,
+				6C50E90727D7941600989B92 /* NetworkExecutor.swift in Sources */,
 				6C50E8EF27D6437C00989B92 /* ContentView.swift in Sources */,
+				6C50E92F27DD289B00989B92 /* ItemVariationOpenInitializer.swift in Sources */,
+				6C50E95E27DE47BB00989B92 /* FurnitureHTTPTask.swift in Sources */,
+				6C50E91727DAB51900989B92 /* ItemAvailabilityCodable.swift in Sources */,
+				6C50E91327D91F4000989B92 /* ItemVariationProtocol.swift in Sources */,
 				6C50E8ED27D6437C00989B92 /* nookapiApp.swift in Sources */,
+				6C50E91D27DB88DD00989B92 /* ClothesHTTPTask.swift in Sources */,
+				6C50E91B27DAB6A200989B92 /* ItemVariationCodable.swift in Sources */,
+				6C50E91F27DB8BF200989B92 /* NookAPIProtocols.swift in Sources */,
+				6C50E92727DD22D400989B92 /* ClothesProviderOpenInitializer.swift in Sources */,
+				6C50E8FF27D6473900989B92 /* ClothesEnums.swift in Sources */,
+				6C50E90427D66EF900989B92 /* ClothesProviderNetworking.swift in Sources */,
+				6C50E91927DAB58B00989B92 /* ItemBuyCodable.swift in Sources */,
+				6C50E91527DAB4C500989B92 /* ClothesCodable.swift in Sources */,
+				6C50E93127DD28E000989B92 /* ClothesOpenInitializer.swift in Sources */,
+				6C50E95A27DE475600989B92 /* FurnitureProvider.swift in Sources */,
+				6C50E93627DD6A7D00989B92 /* NintendoCatalogParser.swift in Sources */,
+				6C50E96127DE481200989B92 /* FurnitureProviderFile.swift in Sources */,
+				6C50E96327DE484400989B92 /* FurnitureCodable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
