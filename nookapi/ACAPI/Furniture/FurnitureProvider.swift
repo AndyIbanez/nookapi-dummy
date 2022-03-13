@@ -10,5 +10,5 @@ import Foundation
 protocol FurnitureProvider {
     associatedtype FurnitureType = FurnitureProtocol
     
-    func fetchFurniture(parameters: FurnitureRequestParameters)
+    func fetchFurniture(parameters: FurnitureRequestParameters) async throws -> [FurnitureType]
 }
