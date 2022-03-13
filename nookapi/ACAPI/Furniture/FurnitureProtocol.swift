@@ -28,9 +28,9 @@ protocol FurnitureProtocol: Identifiable {
     var totalPatterns: Int { get }
     var customizable: Bool { get }
     var customKits: Int { get }
-    var customKitType: String { get } // Enum?
-    var customBodyPart: String { get } // Enum?
-    var customPatternPart: String { get } // Enum?
+    var customKitType: CustomKitType { get }
+    var customBodyPart: String { get }
+    var customPatternPart: String { get }
     var height: String { get }
     var doorDecoration: Bool { get }
     var versionAdded: GameVersion { get }
@@ -38,8 +38,8 @@ protocol FurnitureProtocol: Identifiable {
     var notes: String { get }
     var gridWidth: Float { get }
     var gridLength: Float { get }
-    var furnitureThemes: [String] { get } // Array Enum?
-    var functions: [String] { get } // Array Enum?
+    var furnitureThemes: [String] { get }
+    var functions: [String] { get }
     var availability: [ItemAvailabilityType] { get }
     var buy: [ItemBuyType] { get }
     var variations: [ItemVariationType] { get }

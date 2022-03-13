@@ -105,8 +105,8 @@ func jsonSerializationPrinting(file: URL) {
             let clothesProvider = FurnitureProviderFile(fileURL: file)
             let clothes = try await clothesProvider.fetchFurniture(parameters: FurnitureRequestParameters())
             var set = Set<String>()
-            //clothes.forEach { set.insert($0.luckySeason) }
-            //set.forEach { print($0) }
+            clothes.forEach { fu in fu.functions.forEach { set.insert($0) } }
+            set.forEach { print($0) }
         } catch {
             print(error)
         }

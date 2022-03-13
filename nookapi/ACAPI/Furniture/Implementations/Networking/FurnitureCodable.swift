@@ -28,7 +28,7 @@ struct FurnitureCodable: FurnitureProtocol, Codable {
     let totalPatterns: Int
     let customizable: Bool
     let customKits: Int
-    let customKitType: String
+    let customKitType: CustomKitType
     let customBodyPart: String
     let customPatternPart: String
     let height: String
