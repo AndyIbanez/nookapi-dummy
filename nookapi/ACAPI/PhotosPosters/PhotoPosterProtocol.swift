@@ -14,12 +14,12 @@ protocol PhotoPosterProtocol: Identifiable {
     
     var name: String { get }
     // var wikiURL: URL { get }
-    var category: String { get } // Enum?
+    var category: PhotoPosterCategory { get }
     var hhaBase: Int { get }
     var sell: Int { get }
     var customizable: Bool { get }
-    var customKits: Bool { get }
-    var customBodyPart: String { get } // Enum? Frame, None
+    var customKits: Int { get }
+    var customBodyPart: PhotoPosterBodyPart { get }
     var interactable:  Bool { get }
     var versionAdded: GameVersion { get }
     var unlocked: Bool { get }

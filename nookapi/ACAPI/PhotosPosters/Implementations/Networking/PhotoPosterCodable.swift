@@ -15,12 +15,12 @@ struct PhotoPosterCodable: PhotoPosterProtocol, Codable {
     let id = UUID()
     let name: String
     //let wikiURL: URL
-    let category: String
+    let category: PhotoPosterCategory
     let hhaBase: Int
     let sell: Int
     let customizable: Bool
-    let customKits: Bool
-    let customBodyPart: String
+    let customKits: Int
+    let customBodyPart: PhotoPosterBodyPart
     let interactable: Bool
     let versionAdded: GameVersion
     let unlocked: Bool

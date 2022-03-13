@@ -66,6 +66,7 @@
 		6C50E97C27DE67F200989B92 /* PhotoPosterCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C50E97B27DE67F200989B92 /* PhotoPosterCodable.swift */; };
 		6C50E98027DE682B00989B92 /* PhotoPosterProviderFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C50E97F27DE682B00989B92 /* PhotoPosterProviderFile.swift */; };
 		6C50E98227DE689D00989B92 /* PhotosPostersHTTPDataTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C50E98127DE689D00989B92 /* PhotosPostersHTTPDataTask.swift */; };
+		6C50E98427DE6ECE00989B92 /* PhotoPosterEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C50E98327DE6ECE00989B92 /* PhotoPosterEnums.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -129,6 +130,7 @@
 		6C50E97B27DE67F200989B92 /* PhotoPosterCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPosterCodable.swift; sourceTree = "<group>"; };
 		6C50E97F27DE682B00989B92 /* PhotoPosterProviderFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPosterProviderFile.swift; sourceTree = "<group>"; };
 		6C50E98127DE689D00989B92 /* PhotosPostersHTTPDataTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosPostersHTTPDataTask.swift; sourceTree = "<group>"; };
+		6C50E98327DE6ECE00989B92 /* PhotoPosterEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPosterEnums.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -402,6 +404,7 @@
 				6C50E97527DE677C00989B92 /* Implementations */,
 				6C50E97727DE67C600989B92 /* PhotoPosterProtocol.swift */,
 				6C50E97927DE67D700989B92 /* PhotoPosterProvider.swift */,
+				6C50E98327DE6ECE00989B92 /* PhotoPosterEnums.swift */,
 			);
 			path = PhotosPosters;
 			sourceTree = "<group>";
@@ -532,6 +535,7 @@
 				6C50E90D27D8E9DE00989B92 /* ItemAvailabilityProtocol.swift in Sources */,
 				6C50E90927D7956800989B92 /* HTTPTasks.swift in Sources */,
 				6C50E97A27DE67D700989B92 /* PhotoPosterProvider.swift in Sources */,
+				6C50E98427DE6ECE00989B92 /* PhotoPosterEnums.swift in Sources */,
 				6C50E90727D7941600989B92 /* NetworkExecutor.swift in Sources */,
 				6C50E98027DE682B00989B92 /* PhotoPosterProviderFile.swift in Sources */,
 				6C50E8EF27D6437C00989B92 /* ContentView.swift in Sources */,

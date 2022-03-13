@@ -101,11 +101,11 @@ func jsonSerializationPrinting(file: URL) {
     Task {
         print("Interiors")
         do {
-            let file = Bundle.main.url(forResource: "Interior", withExtension: "json")!
-            let provider = InteriorProviderFile(fileURL: file)
-            let items = try await provider.fetchInteriors(parameters: InteriorsRequestParameters())
+            let file = Bundle.main.url(forResource: "PhotosPosters", withExtension: "json")!
+            let provider = PhotoPosterProviderFile(fileURL: file)
+            let items = try await provider.fetchPhotoPosters(parameters: PhotoPostersRequestParameters())
             var set = Set<String>()
-            //items.forEach { set.insert($0.category) }
+            //items.forEach { set.insert($0.customBodyPart) }
             //set.forEach { print($0) }
         } catch {
             print(error)
