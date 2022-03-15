@@ -1,5 +1,5 @@
 {
-    "updated_at": 1647196624,
+    "updated_at": 1647368280,
     "items": [{
         "unique_id": 2,
         "label": "Scenic painting",
@@ -1028,7 +1028,7 @@
         "is_tool_category": false
     }, {
         "unique_id": 198,
-        "label": "Pachy skull",
+        "label": "Pachysaurus skull",
         "kind_id": "Fossil",
         "price": 16000,
         "catalog_type": "NotForSale",
@@ -1047,7 +1047,7 @@
         "is_tool_category": false
     }, {
         "unique_id": 199,
-        "label": "Pachy tail",
+        "label": "Pachysaurus tail",
         "kind_id": "Fossil",
         "price": 14000,
         "catalog_type": "NotForSale",
@@ -16799,6 +16799,25 @@
         "small_genre": "HobbyGoods",
         "is_tool_category": false
     }, {
+        "unique_id": 7024,
+        "label": "Dace model",
+        "kind_id": "FishToy",
+        "price": 2880,
+        "catalog_type": "NotForSale",
+        "item_size_id": "1x1",
+        "ui_category": "Upper",
+        "icon": "fc82a364-605b-45fd-967b-95ac172a1068",
+        "item_fossil_set_id": 0,
+        "hha_theme": 0,
+        "can_sell": 1,
+        "remakable": false,
+        "color1": "Brown",
+        "color2": "Black",
+        "from": "other",
+        "shop_remakable": false,
+        "small_genre": "HobbyGoods",
+        "is_tool_category": false
+    }, {
         "unique_id": 7035,
         "label": "Gold HHA plaque",
         "kind_id": "Ftr",
@@ -18493,6 +18512,25 @@
         "remakable": false,
         "color1": "Black",
         "color2": "White",
+        "from": "other",
+        "shop_remakable": false,
+        "small_genre": "RugQuadrilateral",
+        "is_tool_category": false
+    }, {
+        "unique_id": 7350,
+        "label": "Modern wavy rug",
+        "kind_id": "Rug",
+        "price": 2000,
+        "catalog_type": "Sale",
+        "item_size_id": "4x3",
+        "ui_category": "Ceiling_Rug",
+        "icon": "fa8030ea-d501-4c1a-8ffc-3a925b5ba488",
+        "item_fossil_set_id": 0,
+        "hha_theme": 0,
+        "can_sell": 1,
+        "remakable": false,
+        "color1": "Colorful",
+        "color2": "Colorful",
         "from": "other",
         "shop_remakable": false,
         "small_genre": "RugQuadrilateral",
@@ -21387,6 +21425,44 @@
         "small_genre": "Umbrella",
         "is_tool_category": false
     }, {
+        "unique_id": 10171,
+        "label": "Hello Kitty wall",
+        "kind_id": "RoomWall",
+        "price": 3000,
+        "catalog_type": "NotSee",
+        "item_size_id": "1x1",
+        "ui_category": "RoomWall",
+        "icon": "d66babec-c9cd-4aea-9441-206598779028",
+        "item_fossil_set_id": 0,
+        "hha_theme": 35,
+        "can_sell": 1,
+        "remakable": false,
+        "color1": "Red",
+        "color2": "Blue",
+        "from": "collaborate",
+        "shop_remakable": false,
+        "small_genre": "WallSpecial",
+        "is_tool_category": false
+    }, {
+        "unique_id": 10183,
+        "label": "Hello Kitty flooring",
+        "kind_id": "RoomFloor",
+        "price": 3000,
+        "catalog_type": "NotSee",
+        "item_size_id": "1x1",
+        "ui_category": "RoomFloor",
+        "icon": "34216cf1-bce4-4472-933f-b447f5fc7f6a",
+        "item_fossil_set_id": 0,
+        "hha_theme": 35,
+        "can_sell": 1,
+        "remakable": false,
+        "color1": "Blue",
+        "color2": "LightBlue",
+        "from": "collaborate",
+        "shop_remakable": false,
+        "small_genre": "FloorOutdoor",
+        "is_tool_category": false
+    }, {
         "unique_id": 10318,
         "label": "Diana's poster",
         "kind_id": "Poster",
@@ -22430,6 +22506,82 @@
         "from": "other",
         "shop_remakable": false,
         "small_genre": "HobbyGoods",
+        "is_tool_category": false
+    }, {
+        "unique_id": 12241,
+        "label": "Hello Kitty drawers",
+        "kind_id": "Ftr",
+        "price": 3000,
+        "catalog_type": "NotSee",
+        "item_size_id": "2x1",
+        "ui_category": "Floor",
+        "icon": "dfdc13f3-c882-4543-bb60-84949f36eed5",
+        "item_fossil_set_id": 0,
+        "hha_theme": 35,
+        "can_sell": 1,
+        "remakable": false,
+        "color1": "White",
+        "color2": "Red",
+        "from": "collaborate",
+        "shop_remakable": false,
+        "small_genre": "EventGoods",
+        "is_tool_category": false
+    }, {
+        "unique_id": 12270,
+        "label": "Hello Kitty table",
+        "kind_id": "Ftr",
+        "price": 5000,
+        "catalog_type": "NotSee",
+        "item_size_id": "2x2",
+        "ui_category": "Floor",
+        "icon": "0f199726-eb2f-4cbb-a31b-2896b2f7755f",
+        "item_fossil_set_id": 0,
+        "hha_theme": 35,
+        "can_sell": 1,
+        "remakable": false,
+        "color1": "White",
+        "color2": "Red",
+        "from": "collaborate",
+        "shop_remakable": false,
+        "small_genre": "EventGoods",
+        "is_tool_category": false
+    }, {
+        "unique_id": 12272,
+        "label": "Hello Kitty planter",
+        "kind_id": "Ftr",
+        "price": 1800,
+        "catalog_type": "NotSee",
+        "item_size_id": "1x1",
+        "ui_category": "Upper",
+        "icon": "e6197bc6-6726-4bef-9b78-b3cab2ba58de",
+        "item_fossil_set_id": 0,
+        "hha_theme": 35,
+        "can_sell": 1,
+        "remakable": false,
+        "color1": "Green",
+        "color2": "Blue",
+        "from": "collaborate",
+        "shop_remakable": false,
+        "small_genre": "EventGoods",
+        "is_tool_category": false
+    }, {
+        "unique_id": 12291,
+        "label": "Hello Kitty rug",
+        "kind_id": "Rug",
+        "price": 1500,
+        "catalog_type": "NotSee",
+        "item_size_id": "3x3",
+        "ui_category": "Ceiling_Rug",
+        "icon": "49173a5c-b8e9-4a31-89c4-b6c0380449eb",
+        "item_fossil_set_id": 0,
+        "hha_theme": 35,
+        "can_sell": 1,
+        "remakable": false,
+        "color1": "White",
+        "color2": "Red",
+        "from": "collaborate",
+        "shop_remakable": false,
+        "small_genre": "RugSpecial",
         "is_tool_category": false
     }, {
         "unique_id": 12307,
@@ -25577,6 +25729,25 @@
         "small_genre": "RugQuadrilateral",
         "is_tool_category": false
     }, {
+        "unique_id": 13058,
+        "label": "Simple entrance mat",
+        "kind_id": "Rug",
+        "price": 1000,
+        "catalog_type": "Sale",
+        "item_size_id": "2x1",
+        "ui_category": "Ceiling_Rug",
+        "icon": "f133c60b-a960-46f2-b145-5252207ca9cb",
+        "item_fossil_set_id": 0,
+        "hha_theme": 0,
+        "can_sell": 1,
+        "remakable": false,
+        "color1": "Black",
+        "color2": "Black",
+        "from": "other",
+        "shop_remakable": false,
+        "small_genre": "RugQuadrilateral",
+        "is_tool_category": false
+    }, {
         "unique_id": 13123,
         "label": "Red balloon",
         "kind_id": "Balloon",
@@ -26725,6 +26896,27 @@
         "small_genre": "FacilityGoods",
         "is_tool_category": false
     }, {
+        "unique_id": 13701,
+        "label": "Drapery",
+        "kind_id": "Ftr",
+        "price": 1600,
+        "catalog_type": "Sale",
+        "item_size_id": "2x1",
+        "ui_category": "Ceiling",
+        "icon": "1980387a-080c-4a95-9e3c-9a016e529d81",
+        "item_fossil_set_id": 0,
+        "hha_theme": 0,
+        "can_sell": 1,
+        "remakable": true,
+        "color1": "Red",
+        "color2": "Red",
+        "refabric_pattern0_color0": "Red",
+        "refabric_pattern0_color1": "Red",
+        "from": "other",
+        "shop_remakable": true,
+        "small_genre": "CeilingEtc",
+        "is_tool_category": false
+    }, {
         "unique_id": 13709,
         "label": "Spray can",
         "kind_id": "Ftr",
@@ -27104,7 +27296,7 @@
         "is_tool_category": false
     }, {
         "unique_id": 13835,
-        "label": "Sparkling cider",
+        "label": "Fizzy apple juice",
         "kind_id": "JuiceFuzzyapple",
         "price": 1000,
         "catalog_type": "NotSee",
@@ -34868,6 +35060,29 @@
         "small_genre": "Chair",
         "is_tool_category": false
     }, {
+        "unique_id": 1108,
+        "label": "Retro TV",
+        "kind_id": "Ftr",
+        "price": 6000,
+        "catalog_type": "Sale",
+        "item_size_id": "1x1",
+        "ui_category": "Floor",
+        "item_fossil_set_id": 0,
+        "hha_theme": 0,
+        "can_sell": 1,
+        "remakable": false,
+        "rebody_pattern": [{
+            "index": 1,
+            "name": "Brown",
+            "color0": "Brown",
+            "color1": "Gray",
+            "icon": "5e7bbedd-1def-44f4-8dac-b7addee5502e"
+        }],
+        "from": "other",
+        "shop_remakable": true,
+        "small_genre": "EntertainmentAppliances",
+        "is_tool_category": false
+    }, {
         "unique_id": 1111,
         "label": "Outdoor bath",
         "kind_id": "Ftr",
@@ -39278,6 +39493,31 @@
             "color0": "Pink",
             "color1": "Pink",
             "icon": "9464b52a-e4f3-4ca4-b8f6-ce7e94227eb9"
+        }],
+        "from": "other",
+        "shop_remakable": true,
+        "small_genre": "Bed",
+        "is_tool_category": false
+    }, {
+        "unique_id": 2606,
+        "label": "Ranch bed",
+        "kind_id": "Ftr",
+        "price": 10000,
+        "catalog_type": "Sale",
+        "item_size_id": "2x1",
+        "ui_category": "Floor",
+        "item_fossil_set_id": 0,
+        "hha_theme": 45,
+        "can_sell": 1,
+        "remakable": true,
+        "refabric_pattern0_color0": "None",
+        "refabric_pattern0_color1": "White",
+        "rebody_pattern": [{
+            "index": 4,
+            "name": "Pink",
+            "color0": "Pink",
+            "color1": "White",
+            "icon": "371395e7-957d-4d8f-a070-bf36fd9b473f"
         }],
         "from": "other",
         "shop_remakable": true,
@@ -68646,6 +68886,29 @@
         "from": "other",
         "shop_remakable": true,
         "small_genre": "EntertainmentAppliances",
+        "is_tool_category": false
+    }, {
+        "unique_id": 14524,
+        "label": "Floral sconce",
+        "kind_id": "Ftr",
+        "price": 1200,
+        "catalog_type": "Sale",
+        "item_size_id": "1x1",
+        "ui_category": "Wall",
+        "item_fossil_set_id": 0,
+        "hha_theme": 0,
+        "can_sell": 1,
+        "remakable": false,
+        "rebody_pattern": [{
+            "index": 0,
+            "name": "White",
+            "color0": "White",
+            "color1": "Yellow",
+            "icon": "9b4ba9d5-691d-4c33-9564-744371b77aca"
+        }],
+        "from": "other",
+        "shop_remakable": true,
+        "small_genre": "Lamp",
         "is_tool_category": false
     }, {
         "unique_id": 14528,
@@ -116491,6 +116754,75 @@
         "small_genre": "Socks",
         "is_tool_category": false
     }, {
+        "unique_id": 13165,
+        "label": "Hello Kitty hat",
+        "kind_id": "Cap",
+        "price": 1500,
+        "catalog_type": "NotSee",
+        "item_size_id": "1x1",
+        "ui_category": "Clothes",
+        "can_sell": 1,
+        "remakable": false,
+        "variations": [{
+            "unique_id": 13165,
+            "name": "No Variations",
+            "color1": "White",
+            "color2": "Red",
+            "icon": "9d9e5ce2-c209-4e09-a542-9dfd3efb4f3c"
+        }],
+        "fashion_theme": ["fairyland", "stage"],
+        "from": "collaborate",
+        "shop_remakable": false,
+        "small_genre": "Cap",
+        "is_tool_category": false,
+        "single_flag": true
+    }, {
+        "unique_id": 13166,
+        "label": "Hello Kitty tee",
+        "kind_id": "Tops",
+        "price": 1000,
+        "catalog_type": "NotSee",
+        "item_size_id": "1x1",
+        "ui_category": "Clothes",
+        "can_sell": 1,
+        "remakable": false,
+        "variations": [{
+            "unique_id": 13166,
+            "name": "No Variations",
+            "color1": "Blue",
+            "color2": "White",
+            "icon": "5bfbde76-c367-486c-addf-8878b270dc89"
+        }],
+        "fashion_theme": ["fairyland", "daily"],
+        "from": "collaborate",
+        "shop_remakable": false,
+        "small_genre": "Tops",
+        "is_tool_category": false,
+        "single_flag": true
+    }, {
+        "unique_id": 13167,
+        "label": "Hello Kitty shoes",
+        "kind_id": "Shoes",
+        "price": 1200,
+        "catalog_type": "NotSee",
+        "item_size_id": "1x1",
+        "ui_category": "Clothes",
+        "can_sell": 1,
+        "remakable": false,
+        "variations": [{
+            "unique_id": 13167,
+            "name": "No Variations",
+            "color1": "White",
+            "color2": "Red",
+            "icon": "e1b0c8f3-4106-443c-b0fb-f390b9ba79e6"
+        }],
+        "fashion_theme": ["fairyland", "daily"],
+        "from": "collaborate",
+        "shop_remakable": false,
+        "small_genre": "Shoes",
+        "is_tool_category": false,
+        "single_flag": true
+    }, {
         "unique_id": 13215,
         "label": "Nook Inc. snorkel",
         "kind_id": "Accessory",
@@ -116586,6 +116918,29 @@
                 "country": "Asia"
             }]
         },
+        "single_flag": true
+    }, {
+        "unique_id": 13276,
+        "label": "Hello Kitty dress",
+        "kind_id": "OnePiece",
+        "price": 2400,
+        "catalog_type": "NotSee",
+        "item_size_id": "1x1",
+        "ui_category": "Clothes",
+        "can_sell": 1,
+        "remakable": false,
+        "variations": [{
+            "unique_id": 13276,
+            "name": "No Variations",
+            "color1": "Blue",
+            "color2": "Red",
+            "icon": "eb17bdff-b45e-48ec-8557-7102d84bf6c9"
+        }],
+        "fashion_theme": ["fairyland", "daily"],
+        "from": "collaborate",
+        "shop_remakable": false,
+        "small_genre": "OnePiece",
+        "is_tool_category": false,
         "single_flag": true
     }, {
         "unique_id": 13325,
@@ -117509,6 +117864,12 @@
             "color1": "White",
             "color2": "Red",
             "icon": "83665467-c7d9-449c-aa9d-903ae9006d26"
+        }, {
+            "unique_id": 519,
+            "name": "Purple necktie",
+            "color1": "White",
+            "color2": "Black",
+            "icon": "f8986ca8-ae7b-4ab6-8479-4b1f87060199"
         }],
         "fashion_theme": ["work", "horror"],
         "from": "other",
