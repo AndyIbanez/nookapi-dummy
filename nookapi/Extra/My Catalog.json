@@ -1,5 +1,5 @@
 {
-    "updated_at": 1647479580,
+    "updated_at": 1647522174,
     "items": [{
         "unique_id": 2,
         "label": "Scenic painting",
@@ -22546,6 +22546,63 @@
         "small_genre": "EventGoods",
         "is_tool_category": false
     }, {
+        "unique_id": 12243,
+        "label": "Kiki & Lala table",
+        "kind_id": "Ftr",
+        "price": 2500,
+        "catalog_type": "NotSee",
+        "item_size_id": "2x1",
+        "ui_category": "Floor",
+        "icon": "8cc2b2c6-701c-44f0-8409-813e250163c6",
+        "item_fossil_set_id": 0,
+        "hha_theme": 37,
+        "can_sell": 1,
+        "remakable": false,
+        "color1": "Yellow",
+        "color2": "Pink",
+        "from": "collaborate",
+        "shop_remakable": false,
+        "small_genre": "EventGoods",
+        "is_tool_category": false
+    }, {
+        "unique_id": 12244,
+        "label": "Kiki & Lala sofa",
+        "kind_id": "Ftr",
+        "price": 4000,
+        "catalog_type": "NotSee",
+        "item_size_id": "2x1",
+        "ui_category": "Floor",
+        "icon": "3228d48b-f6d0-4919-b11a-4ae3348be0ca",
+        "item_fossil_set_id": 0,
+        "hha_theme": 37,
+        "can_sell": 1,
+        "remakable": false,
+        "color1": "Pink",
+        "color2": "Purple",
+        "from": "collaborate",
+        "shop_remakable": false,
+        "small_genre": "EventGoods",
+        "is_tool_category": false
+    }, {
+        "unique_id": 12245,
+        "label": "Kiki & Lala cloud maker",
+        "kind_id": "Ftr",
+        "price": 4800,
+        "catalog_type": "NotSee",
+        "item_size_id": "2x1",
+        "ui_category": "Floor",
+        "icon": "22a5ef1d-8888-4826-9825-192e306c1bf1",
+        "item_fossil_set_id": 0,
+        "hha_theme": 37,
+        "can_sell": 1,
+        "remakable": false,
+        "color1": "Pink",
+        "color2": "White",
+        "from": "collaborate",
+        "shop_remakable": false,
+        "small_genre": "EventGoods",
+        "is_tool_category": false
+    }, {
         "unique_id": 12256,
         "label": "Kiki & Lala bed",
         "kind_id": "Ftr",
@@ -25975,6 +26032,25 @@
         "shop_remakable": false,
         "small_genre": "WallSpecial",
         "is_tool_category": false
+    }, {
+        "unique_id": 13173,
+        "label": "Kiki & Lala wand",
+        "kind_id": "ChangeStick",
+        "price": 12240,
+        "catalog_type": "NotSee",
+        "item_size_id": "1x1",
+        "ui_category": "Tool",
+        "icon": "e5748741-2b13-40df-a11e-d6cc65af3e58",
+        "item_fossil_set_id": 0,
+        "hha_theme": 0,
+        "can_sell": 1,
+        "remakable": false,
+        "color1": "Yellow",
+        "color2": "White",
+        "from": "collaborate",
+        "shop_remakable": false,
+        "small_genre": "Tool",
+        "is_tool_category": true
     }, {
         "unique_id": 13221,
         "label": "Luna's bed",
@@ -56626,6 +56702,41 @@
         "small_genre": "HobbyGoods",
         "is_tool_category": false
     }, {
+        "unique_id": 12345,
+        "label": "Metal-and-wood table",
+        "kind_id": "Ftr",
+        "price": 1000,
+        "catalog_type": "Sale",
+        "item_size_id": "1x1",
+        "ui_category": "Floor",
+        "item_fossil_set_id": 0,
+        "hha_theme": 0,
+        "can_sell": 1,
+        "remakable": false,
+        "rebody_pattern": [{
+            "index": 1,
+            "name": "Natural wood",
+            "color0": "Orange",
+            "color1": "Gray",
+            "icon": "b7c88882-c3f2-424f-bebd-fe854f7dfa75"
+        }, {
+            "index": 0,
+            "name": "Light wood",
+            "color0": "Beige",
+            "color1": "Gray",
+            "icon": "70135e32-b7cd-435d-bfd8-029a95e48810"
+        }, {
+            "index": 2,
+            "name": "Dark wood",
+            "color0": "Brown",
+            "color1": "Gray",
+            "icon": "85fd6f1d-1479-4088-a1f8-84e62b456cb4"
+        }],
+        "from": "other",
+        "shop_remakable": true,
+        "small_genre": "Table",
+        "is_tool_category": false
+    }, {
         "unique_id": 12349,
         "label": "Project table",
         "kind_id": "Ftr",
@@ -58624,11 +58735,29 @@
         "refabric_pattern0_color0": "None",
         "refabric_pattern0_color1": "White",
         "rebody_pattern": [{
+            "index": 0,
+            "name": "Light wood",
+            "color0": "Beige",
+            "color1": "Brown",
+            "icon": "2378e9ae-89d2-4573-801e-5d5d1f86c3d1"
+        }, {
             "index": 1,
             "name": "Natural wood",
             "color0": "Brown",
             "color1": "White",
             "icon": "c87a684c-f18a-4e37-9bf1-28f89614c6cd"
+        }, {
+            "index": 2,
+            "name": "Black",
+            "color0": "Black",
+            "color1": "Brown",
+            "icon": "c6fb3496-7c86-4aca-9924-699a6db4d8e6"
+        }, {
+            "index": 3,
+            "name": "White",
+            "color0": "White",
+            "color1": "LightBlue",
+            "icon": "445917e2-be21-4f30-a7fe-29fb6243c620"
         }],
         "from": "other",
         "shop_remakable": true,
@@ -58805,6 +58934,12 @@
         "refabric_pattern0_color0": "None",
         "refabric_pattern0_color1": "Red",
         "rebody_pattern": [{
+            "index": 4,
+            "name": "Colorful",
+            "color0": "Colorful",
+            "color1": "Colorful",
+            "icon": "3401df54-e222-4c79-9a97-e7e71b2e0f3f"
+        }, {
             "index": 0,
             "name": "Light wood",
             "color0": "Beige",
@@ -65072,6 +65207,31 @@
         "from": "other",
         "shop_remakable": true,
         "small_genre": "DishDrink",
+        "is_tool_category": false
+    }, {
+        "unique_id": 13744,
+        "label": "Framed poster",
+        "kind_id": "Ftr",
+        "price": 1400,
+        "catalog_type": "Sale",
+        "item_size_id": "1x1",
+        "ui_category": "Wall",
+        "item_fossil_set_id": 0,
+        "hha_theme": 0,
+        "can_sell": 1,
+        "remakable": true,
+        "refabric_pattern0_color0": "None",
+        "refabric_pattern0_color1": "White",
+        "rebody_pattern": [{
+            "index": 6,
+            "name": "Yellow",
+            "color0": "Yellow",
+            "color1": "Yellow",
+            "icon": "70b6d0cf-059e-451e-b2b2-8ac80296b528"
+        }],
+        "from": "other",
+        "shop_remakable": true,
+        "small_genre": "FacilityGoods",
         "is_tool_category": false
     }, {
         "unique_id": 13745,
@@ -116960,6 +117120,29 @@
         "is_tool_category": false,
         "single_flag": true
     }, {
+        "unique_id": 13170,
+        "label": "Kiki & Lala pin",
+        "kind_id": "Cap",
+        "price": 700,
+        "catalog_type": "NotSee",
+        "item_size_id": "1x1",
+        "ui_category": "Clothes",
+        "can_sell": 1,
+        "remakable": false,
+        "variations": [{
+            "unique_id": 13170,
+            "name": "No Variations",
+            "color1": "Pink",
+            "color2": "Yellow",
+            "icon": "d90a8dcf-bc5e-44e9-80ef-39c378bcb8dc"
+        }],
+        "fashion_theme": ["fairyland", "daily"],
+        "from": "collaborate",
+        "shop_remakable": false,
+        "small_genre": "Cap",
+        "is_tool_category": false,
+        "single_flag": true
+    }, {
         "unique_id": 13215,
         "label": "Nook Inc. snorkel",
         "kind_id": "Accessory",
@@ -118126,6 +118309,28 @@
         "from": "other",
         "shop_remakable": false,
         "small_genre": "Accessory",
+        "is_tool_category": false
+    }, {
+        "unique_id": 152,
+        "label": "Lunch-service apron",
+        "kind_id": "Tops",
+        "price": 1000,
+        "catalog_type": "Sale",
+        "item_size_id": "1x1",
+        "ui_category": "Clothes",
+        "can_sell": 1,
+        "remakable": false,
+        "variations": [{
+            "unique_id": 152,
+            "name": "Yellow",
+            "color1": "White",
+            "color2": "Yellow",
+            "icon": "03bb6266-1dca-4c47-802c-439e318ded51"
+        }],
+        "fashion_theme": ["work"],
+        "from": "other",
+        "shop_remakable": false,
+        "small_genre": "Tops",
         "is_tool_category": false
     }, {
         "unique_id": 14274,
@@ -119712,6 +119917,12 @@
             "color1": "Orange",
             "color2": "Green",
             "icon": "2ff1838a-5653-405f-b0e4-270fdb6b59c8"
+        }, {
+            "unique_id": 14678,
+            "name": "Yellow",
+            "color1": "Yellow",
+            "color2": "LightBlue",
+            "icon": "be94d165-c773-4261-a485-7f2209699e49"
         }, {
             "unique_id": 14679,
             "name": "Green",
@@ -121835,7 +122046,7 @@
         "small_genre": "Tops",
         "is_tool_category": false
     }, {
-        "unique_id": 472,
+        "unique_id": 14848,
         "label": "Market auctioneer's cap",
         "kind_id": "Cap",
         "price": 840,
@@ -121845,11 +122056,23 @@
         "can_sell": 1,
         "remakable": false,
         "variations": [{
+            "unique_id": 14848,
+            "name": "Blue",
+            "color1": "Blue",
+            "color2": "Yellow",
+            "icon": "39f188cd-18a9-4253-b322-fd6bce37bcb4"
+        }, {
             "unique_id": 472,
             "name": "Green",
             "color1": "Green",
             "color2": "White",
             "icon": "e19f255b-018e-4067-b1cc-f37c5658f8ab"
+        }, {
+            "unique_id": 473,
+            "name": "Brown",
+            "color1": "Brown",
+            "color2": "Green",
+            "icon": "ad1b8e04-0085-42f3-84b2-2ab592d7bffd"
         }],
         "fashion_theme": ["work", "outdoor"],
         "from": "other",
