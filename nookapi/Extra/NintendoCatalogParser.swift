@@ -189,7 +189,8 @@ func jsonSerializationPrinting(file: URL) {
                                     break
                                 }
                             }
-                            let itemToAdd = "\(item.name) (\(itemVariation.variation))"
+                            let fromCrafting = item.availability.contains { $0.from.caseInsensitiveCompare("Crafting") == .orderedSame }
+                            let itemToAdd = "\(item.name) (\(itemVariation.variation))\(fromCrafting ? "(Crafting)" : "")"
                             if shouldAddToOwn {
                                 if !itemList.contains(itemToAdd) {
                                     itemList.append(itemToAdd)
