@@ -1,5 +1,5 @@
 {
-    "updated_at": 1647641259,
+    "updated_at": 1647699076,
     "items": [{
         "unique_id": 2,
         "label": "Scenic painting",
@@ -21463,6 +21463,25 @@
         "small_genre": "WallSpecial",
         "is_tool_category": false
     }, {
+        "unique_id": 10179,
+        "label": "Kiki & Lala flooring",
+        "kind_id": "RoomFloor",
+        "price": 3000,
+        "catalog_type": "NotSee",
+        "item_size_id": "1x1",
+        "ui_category": "RoomFloor",
+        "icon": "a087a1d2-b1fb-419c-a12d-56f0c7742dc7",
+        "item_fossil_set_id": 0,
+        "hha_theme": 37,
+        "can_sell": 1,
+        "remakable": false,
+        "color1": "LightBlue",
+        "color2": "Colorful",
+        "from": "collaborate",
+        "shop_remakable": false,
+        "small_genre": "FloorOutdoor",
+        "is_tool_category": false
+    }, {
         "unique_id": 10183,
         "label": "Hello Kitty flooring",
         "kind_id": "RoomFloor",
@@ -22641,6 +22660,44 @@
         "small_genre": "EventGoods",
         "is_tool_category": false
     }, {
+        "unique_id": 12261,
+        "label": "Pompompurin chair",
+        "kind_id": "Ftr",
+        "price": 2100,
+        "catalog_type": "NotSee",
+        "item_size_id": "1x1",
+        "ui_category": "Floor",
+        "icon": "cf9e8ada-8685-4bc1-9128-e57275e07551",
+        "item_fossil_set_id": 0,
+        "hha_theme": 36,
+        "can_sell": 1,
+        "remakable": false,
+        "color1": "Yellow",
+        "color2": "Brown",
+        "from": "collaborate",
+        "shop_remakable": false,
+        "small_genre": "EventGoods",
+        "is_tool_category": false
+    }, {
+        "unique_id": 12262,
+        "label": "Pompompurin bed",
+        "kind_id": "Ftr",
+        "price": 5500,
+        "catalog_type": "NotSee",
+        "item_size_id": "2x2",
+        "ui_category": "Floor",
+        "icon": "bd185b20-1b69-4680-a0b0-29e322e29150",
+        "item_fossil_set_id": 0,
+        "hha_theme": 36,
+        "can_sell": 1,
+        "remakable": false,
+        "color1": "Yellow",
+        "color2": "Orange",
+        "from": "collaborate",
+        "shop_remakable": false,
+        "small_genre": "EventGoods",
+        "is_tool_category": false
+    }, {
         "unique_id": 12268,
         "label": "Hello Kitty clock",
         "kind_id": "Ftr",
@@ -22734,6 +22791,25 @@
         "from": "collaborate",
         "shop_remakable": false,
         "small_genre": "EventGoods",
+        "is_tool_category": false
+    }, {
+        "unique_id": 12290,
+        "label": "Kiki & Lala rug",
+        "kind_id": "Rug",
+        "price": 1500,
+        "catalog_type": "NotSee",
+        "item_size_id": "3x3",
+        "ui_category": "Ceiling_Rug",
+        "icon": "5c068848-7219-4082-86ce-2ffe59b93d89",
+        "item_fossil_set_id": 0,
+        "hha_theme": 37,
+        "can_sell": 1,
+        "remakable": false,
+        "color1": "Pink",
+        "color2": "LightBlue",
+        "from": "collaborate",
+        "shop_remakable": false,
+        "small_genre": "RugSpecial",
         "is_tool_category": false
     }, {
         "unique_id": 12291,
@@ -33752,6 +33828,12 @@
         "can_sell": 1,
         "remakable": false,
         "rebody_pattern": [{
+            "index": 0,
+            "name": "Red",
+            "color0": "Orange",
+            "color1": "Brown",
+            "icon": "cd64445f-f92b-4d51-bc2b-508e3b9faf48"
+        }, {
             "index": 1,
             "name": "Dark brown",
             "color0": "Brown",
@@ -33763,6 +33845,12 @@
             "color0": "Beige",
             "color1": "Beige",
             "icon": "623901ab-c034-4e88-a9e1-62cd28b7dcd9"
+        }, {
+            "index": 3,
+            "name": "White",
+            "color0": "White",
+            "color1": "Gray",
+            "icon": "db08602f-d17f-433a-96cc-27fd7b5d57a6"
         }],
         "from": "other",
         "shop_remakable": true,
@@ -34682,6 +34770,42 @@
             "color0": "White",
             "color1": "White",
             "icon": "25b9f206-c6e6-4a7f-9516-92d35e0e4bbd"
+        }, {
+            "index": 0,
+            "name": "Red",
+            "color0": "Red",
+            "color1": "Red",
+            "icon": "047e5885-983f-4650-9e32-bbba5526902a"
+        }, {
+            "index": 1,
+            "name": "Yellow",
+            "color0": "Yellow",
+            "color1": "Yellow",
+            "icon": "05f528fc-f75d-41f0-a991-836b4133a6b6"
+        }, {
+            "index": 2,
+            "name": "Green",
+            "color0": "Green",
+            "color1": "Green",
+            "icon": "e7bcff0c-2a23-438f-8f65-9b5ac1d686a0"
+        }, {
+            "index": 3,
+            "name": "Black",
+            "color0": "Black",
+            "color1": "Black",
+            "icon": "b85d8a14-374d-49b8-a362-22ca70d8a81d"
+        }, {
+            "index": 4,
+            "name": "Blue",
+            "color0": "Blue",
+            "color1": "Blue",
+            "icon": "76ea7064-e63b-4fa1-a119-344d1614f265"
+        }, {
+            "index": 6,
+            "name": "Rust",
+            "color0": "Brown",
+            "color1": "Brown",
+            "icon": "449121d4-077d-4267-a953-89d829157bb7"
         }],
         "from": "other",
         "shop_remakable": true,
@@ -36231,6 +36355,67 @@
             "color0": "LightBlue",
             "color1": "White",
             "icon": "0ac01f34-15b2-4631-bc03-929fabb4ec69"
+        }],
+        "from": "other",
+        "shop_remakable": true,
+        "small_genre": "Bathroom",
+        "is_tool_category": false
+    }, {
+        "unique_id": 1235,
+        "label": "Bathroom stall",
+        "kind_id": "Ftr",
+        "price": 11000,
+        "catalog_type": "Sale",
+        "item_size_id": "1x1",
+        "ui_category": "Floor",
+        "item_fossil_set_id": 0,
+        "hha_theme": 0,
+        "can_sell": 1,
+        "remakable": true,
+        "refabric_pattern0_color0": "None",
+        "refabric_pattern0_color1": "None",
+        "rebody_pattern": [{
+            "index": 5,
+            "name": "Pink",
+            "color0": "Pink",
+            "color1": "Pink",
+            "icon": "8bf246e1-6c0e-4ced-b037-938980af295b"
+        }, {
+            "index": 0,
+            "name": "White",
+            "color0": "White",
+            "color1": "Gray",
+            "icon": "dd849986-e856-434b-b3a8-8798e3523660"
+        }, {
+            "index": 1,
+            "name": "Silver",
+            "color0": "Gray",
+            "color1": "Gray",
+            "icon": "8a8bb088-ab3d-4bf1-99f6-0eea30ec5b41"
+        }, {
+            "index": 2,
+            "name": "Light wood",
+            "color0": "Beige",
+            "color1": "Beige",
+            "icon": "bec350aa-af8d-40e8-a398-cc9b02917656"
+        }, {
+            "index": 3,
+            "name": "Dark wood",
+            "color0": "Brown",
+            "color1": "Brown",
+            "icon": "3c2c65f7-9312-459f-b074-b674ef895f05"
+        }, {
+            "index": 4,
+            "name": "Blue",
+            "color0": "LightBlue",
+            "color1": "LightBlue",
+            "icon": "eb27ef71-36da-4adb-9b14-133878065766"
+        }, {
+            "index": 6,
+            "name": "Black",
+            "color0": "Black",
+            "color1": "Black",
+            "icon": "ac03628f-6d6f-44ef-bc68-bcea972e0d65"
         }],
         "from": "other",
         "shop_remakable": true,
@@ -47180,11 +47365,47 @@
             "color1": "Blue",
             "icon": "4c6e97ce-cf27-4bcc-a45e-4644c0e23053"
         }, {
+            "index": 0,
+            "name": "Black",
+            "color0": "Black",
+            "color1": "Black",
+            "icon": "ff56e1f1-d3bd-48a5-b9ea-5ffae47c1b06"
+        }, {
+            "index": 1,
+            "name": "White",
+            "color0": "White",
+            "color1": "White",
+            "icon": "d43ab7a3-812d-40e1-a9aa-0670659d9f62"
+        }, {
+            "index": 2,
+            "name": "Yellow",
+            "color0": "Yellow",
+            "color1": "Yellow",
+            "icon": "10bbaf80-fe1b-41ec-9a50-79c4ad0f5b3b"
+        }, {
             "index": 3,
             "name": "Red",
             "color0": "Red",
             "color1": "Red",
             "icon": "bf59814f-0a9f-45f3-978d-c5f5ace70370"
+        }, {
+            "index": 5,
+            "name": "Light green",
+            "color0": "LightBlue",
+            "color1": "LightBlue",
+            "icon": "9fdd7fdc-5378-4de6-861d-2edef3b28a5d"
+        }, {
+            "index": 6,
+            "name": "Gray",
+            "color0": "Gray",
+            "color1": "Gray",
+            "icon": "33ea7ce4-2616-4f06-adf1-7e46617a2603"
+        }, {
+            "index": 7,
+            "name": "Silver",
+            "color0": "Gray",
+            "color1": "Gray",
+            "icon": "cce08359-9068-4bf0-8f8f-45c23020979c"
         }],
         "from": "other",
         "shop_remakable": true,
@@ -52004,17 +52225,47 @@
             "color1": "Gray",
             "icon": "4f8b9235-2c03-4717-af23-7015101b7895"
         }, {
+            "index": 1,
+            "name": "Black",
+            "color0": "Black",
+            "color1": "Black",
+            "icon": "2c581ca0-9855-463a-96d9-ba16e48d1296"
+        }, {
             "index": 2,
             "name": "White",
             "color0": "White",
             "color1": "White",
             "icon": "df06480f-d361-4fca-9481-d08e8ffd73c9"
         }, {
+            "index": 3,
+            "name": "Brown",
+            "color0": "Orange",
+            "color1": "Orange",
+            "icon": "c93d25dd-2e68-4360-92d1-48f18256df6d"
+        }, {
+            "index": 4,
+            "name": "Light brown",
+            "color0": "Beige",
+            "color1": "Beige",
+            "icon": "fc0eebb6-30c1-4fc0-92c4-587f87c5e74c"
+        }, {
             "index": 5,
             "name": "Dark brown",
             "color0": "Brown",
             "color1": "Brown",
             "icon": "f5d4d57f-1939-40b7-a8fc-e2664a88ecee"
+        }, {
+            "index": 6,
+            "name": "Gray",
+            "color0": "Gray",
+            "color1": "Gray",
+            "icon": "b94efdd7-e773-4bd0-b23a-bbdb2004b16c"
+        }, {
+            "index": 7,
+            "name": "Gold",
+            "color0": "Yellow",
+            "color1": "Yellow",
+            "icon": "ba57915e-e90b-49da-b77b-4a2c56181e7e"
         }],
         "from": "other",
         "shop_remakable": true,
@@ -55217,6 +55468,12 @@
             "color1": "Gray",
             "icon": "efe3df9b-6cbb-4644-b6b8-3337c535cfc8"
         }, {
+            "index": 2,
+            "name": "Red",
+            "color0": "Red",
+            "color1": "Gray",
+            "icon": "1ca67edf-95b8-4b9d-90e1-50d6970afca1"
+        }, {
             "index": 3,
             "name": "Brown",
             "color0": "Brown",
@@ -55228,6 +55485,12 @@
             "color0": "Black",
             "color1": "Gray",
             "icon": "86373e08-af1e-49ed-aa7d-db4d32a2df95"
+        }, {
+            "index": 5,
+            "name": "White",
+            "color0": "White",
+            "color1": "Gray",
+            "icon": "b6be9cd3-9724-4844-aeec-735306b179e8"
         }],
         "from": "other",
         "shop_remakable": true,
@@ -56895,11 +57158,41 @@
             "color1": "Gray",
             "icon": "a004ac34-a5a8-4d9e-a21f-e41e75507e56"
         }, {
+            "index": 0,
+            "name": "Green",
+            "color0": "Green",
+            "color1": "Green",
+            "icon": "5b2bcaac-5c2d-44f7-94d8-c8e524ee4ff5"
+        }, {
+            "index": 1,
+            "name": "Yellow",
+            "color0": "Yellow",
+            "color1": "Yellow",
+            "icon": "b7816a13-bcca-4969-9d67-4615cd0aac5f"
+        }, {
             "index": 2,
             "name": "Brown",
             "color0": "Brown",
             "color1": "Brown",
             "icon": "935f71c5-9fd0-42be-8d8a-869dee4d7115"
+        }, {
+            "index": 3,
+            "name": "Black",
+            "color0": "Black",
+            "color1": "Black",
+            "icon": "c15e9332-04c2-4cf0-b857-e339b11f995b"
+        }, {
+            "index": 5,
+            "name": "Red",
+            "color0": "Red",
+            "color1": "Black",
+            "icon": "5a9a228d-79f5-4925-9e2f-3544262f68e6"
+        }, {
+            "index": 6,
+            "name": "Blue",
+            "color0": "Blue",
+            "color1": "Black",
+            "icon": "868c5fc2-6336-48ce-93df-837cd3a7f97b"
         }],
         "from": "other",
         "shop_remakable": true,
@@ -58241,6 +58534,30 @@
             "color0": "Black",
             "color1": "Colorful",
             "icon": "370bd452-3f66-4a52-977c-32e80923f143"
+        }, {
+            "index": 0,
+            "name": "Silver",
+            "color0": "Gray",
+            "color1": "Colorful",
+            "icon": "2446d678-4aaf-4255-aeb5-fd5cb798ef54"
+        }, {
+            "index": 1,
+            "name": "Green",
+            "color0": "Green",
+            "color1": "Colorful",
+            "icon": "63818c4d-a454-4d20-9e63-13dd084fe7e6"
+        }, {
+            "index": 2,
+            "name": "Red",
+            "color0": "Red",
+            "color1": "Colorful",
+            "icon": "5f47d62d-32a1-4a69-b8f9-82ae809b872e"
+        }, {
+            "index": 3,
+            "name": "White",
+            "color0": "White",
+            "color1": "Colorful",
+            "icon": "071ec837-984c-4f97-bced-e264756a0276"
         }],
         "from": "other",
         "shop_remakable": true,
@@ -58259,11 +58576,23 @@
         "can_sell": 1,
         "remakable": false,
         "rebody_pattern": [{
+            "index": 0,
+            "name": "Natural",
+            "color0": "Beige",
+            "color1": "Colorful",
+            "icon": "e63ec5fb-eea6-4c22-a97b-60d86a9c397b"
+        }, {
             "index": 1,
             "name": "Cute",
             "color0": "LightBlue",
             "color1": "Colorful",
             "icon": "6377a31f-09ab-4f43-87c1-7c40a3c77721"
+        }, {
+            "index": 2,
+            "name": "Cool",
+            "color0": "Red",
+            "color1": "Black",
+            "icon": "3cadc8dc-a9e8-4234-b304-73e530114b92"
         }],
         "from": "other",
         "shop_remakable": true,
@@ -58370,11 +58699,41 @@
         "can_sell": 1,
         "remakable": false,
         "rebody_pattern": [{
+            "index": 3,
+            "name": "Red",
+            "color0": "Red",
+            "color1": "Yellow",
+            "icon": "9e3e84ef-66b5-4d76-b075-f690d4c12105"
+        }, {
+            "index": 0,
+            "name": "Blue",
+            "color0": "Blue",
+            "color1": "Gray",
+            "icon": "827438bf-12dc-40d9-af8a-f6c681799fff"
+        }, {
+            "index": 1,
+            "name": "Green",
+            "color0": "Green",
+            "color1": "Yellow",
+            "icon": "ad229f3d-091d-46d5-a519-d546d918cf03"
+        }, {
+            "index": 2,
+            "name": "Yellow",
+            "color0": "Yellow",
+            "color1": "Gray",
+            "icon": "9cadf9fd-3b4c-47ea-b668-073e98aaf14f"
+        }, {
             "index": 4,
             "name": "Light blue",
             "color0": "LightBlue",
             "color1": "Gray",
             "icon": "4db7cda9-69d3-4c07-8a6d-5db3b720c129"
+        }, {
+            "index": 5,
+            "name": "Pink",
+            "color0": "Pink",
+            "color1": "White",
+            "icon": "a4790d3a-a138-47f5-8fcc-23ae71b10105"
         }],
         "from": "other",
         "shop_remakable": true,
@@ -58598,6 +58957,71 @@
         "from": "other",
         "shop_remakable": true,
         "small_genre": "Shelf",
+        "is_tool_category": false
+    }, {
+        "unique_id": 12678,
+        "label": "Arched reception counter",
+        "kind_id": "Ftr",
+        "price": 5500,
+        "catalog_type": "Sale",
+        "item_size_id": "2x1",
+        "ui_category": "Floor",
+        "item_fossil_set_id": 0,
+        "hha_theme": 0,
+        "can_sell": 1,
+        "remakable": false,
+        "rebody_pattern": [{
+            "index": 4,
+            "name": "Blue",
+            "color0": "LightBlue",
+            "color1": "White",
+            "icon": "537c9cec-f695-43e5-8313-8827e643fcc1"
+        }, {
+            "index": 0,
+            "name": "White",
+            "color0": "White",
+            "color1": "Gray",
+            "icon": "234ae558-18e6-4726-89d7-efe8ee51ebf1"
+        }, {
+            "index": 1,
+            "name": "Light wood",
+            "color0": "Beige",
+            "color1": "White",
+            "icon": "3f308740-b3d1-4512-b662-e55b1da7c633"
+        }, {
+            "index": 2,
+            "name": "Brown stripes",
+            "color0": "Brown",
+            "color1": "Black",
+            "icon": "9c51dbbd-d4ee-4c59-9b12-f1330490eddd"
+        }, {
+            "index": 3,
+            "name": "Brown",
+            "color0": "Brown",
+            "color1": "Brown",
+            "icon": "b5a4e92b-9bc7-45c1-a6fa-5b812ca99097"
+        }, {
+            "index": 5,
+            "name": "Pink",
+            "color0": "Pink",
+            "color1": "White",
+            "icon": "29b21eb6-2af5-4b57-856b-12ade5c9d0f0"
+        }, {
+            "index": 6,
+            "name": "White & brown",
+            "color0": "Brown",
+            "color1": "White",
+            "icon": "3a5f98c6-b068-482d-bfaa-9440f36783be"
+        }, {
+            "index": 7,
+            "name": "Beige",
+            "color0": "Yellow",
+            "color1": "Gray",
+            "icon": "56df56cd-152a-46d9-8205-f7072abc70a4"
+        }],
+        "from": "other",
+        "shop_remakable": true,
+        "small_genre": "Table",
         "is_tool_category": false
     }, {
         "unique_id": 12679,
@@ -58903,6 +59327,59 @@
         "from": "other",
         "shop_remakable": true,
         "small_genre": "FacilityGoods",
+        "is_tool_category": false
+    }, {
+        "unique_id": 12704,
+        "label": "Basic school chair",
+        "kind_id": "Ftr",
+        "price": 1000,
+        "catalog_type": "Sale",
+        "item_size_id": "1x1",
+        "ui_category": "Floor",
+        "item_fossil_set_id": 0,
+        "hha_theme": 0,
+        "can_sell": 1,
+        "remakable": false,
+        "rebody_pattern": [{
+            "index": 4,
+            "name": "Yellow",
+            "color0": "Yellow",
+            "color1": "Gray",
+            "icon": "58ebbcbf-7789-4155-af3f-f2a42d61a947"
+        }, {
+            "index": 0,
+            "name": "Blue",
+            "color0": "Blue",
+            "color1": "Gray",
+            "icon": "9ed910b4-a9a2-4a4e-97b3-3ee3fed783a3"
+        }, {
+            "index": 1,
+            "name": "Black",
+            "color0": "Black",
+            "color1": "Gray",
+            "icon": "d6f23516-dc32-4af2-8721-630c67eab806"
+        }, {
+            "index": 2,
+            "name": "Red",
+            "color0": "Red",
+            "color1": "Gray",
+            "icon": "37575b21-86d5-4c6a-8ce1-a7dc99e19552"
+        }, {
+            "index": 3,
+            "name": "Green",
+            "color0": "Green",
+            "color1": "Gray",
+            "icon": "985968bc-82ed-4dce-b096-defded76be93"
+        }, {
+            "index": 5,
+            "name": "Wooden",
+            "color0": "Brown",
+            "color1": "Gray",
+            "icon": "52df29f4-45de-4bbc-ac92-a415e315966b"
+        }],
+        "from": "other",
+        "shop_remakable": true,
+        "small_genre": "Chair",
         "is_tool_category": false
     }, {
         "unique_id": 12705,
@@ -60289,6 +60766,55 @@
         "small_genre": "Table",
         "is_tool_category": false
     }, {
+        "unique_id": 13005,
+        "label": "Artsy chair",
+        "kind_id": "Ftr",
+        "price": 23000,
+        "catalog_type": "Sale",
+        "item_size_id": "1x1",
+        "ui_category": "Floor",
+        "item_fossil_set_id": 0,
+        "hha_theme": 0,
+        "can_sell": 1,
+        "remakable": true,
+        "refabric_pattern0_color0": "None",
+        "refabric_pattern0_color1": "Red",
+        "rebody_pattern": [{
+            "index": 1,
+            "name": "Black",
+            "color0": "Black",
+            "color1": "Black",
+            "icon": "344cf315-6fe2-420b-9f72-f26ac02a1b6d"
+        }, {
+            "index": 0,
+            "name": "Silver",
+            "color0": "Gray",
+            "color1": "Gray",
+            "icon": "9e5b1e2c-7d06-4d33-8c38-14e13783ac9b"
+        }, {
+            "index": 2,
+            "name": "Orange",
+            "color0": "Orange",
+            "color1": "Orange",
+            "icon": "99cc3281-c257-44d1-9a6e-9dbc3e72a5a9"
+        }, {
+            "index": 3,
+            "name": "Blue",
+            "color0": "Blue",
+            "color1": "Blue",
+            "icon": "22b32aa3-bdf9-4d7e-8f7e-f281aadd5928"
+        }, {
+            "index": 4,
+            "name": "Red",
+            "color0": "Red",
+            "color1": "Red",
+            "icon": "9c71b43d-7496-4ad7-ac2f-c743804ceb18"
+        }],
+        "from": "other",
+        "shop_remakable": true,
+        "small_genre": "Chair",
+        "is_tool_category": false
+    }, {
         "unique_id": 13007,
         "label": "Cool side table",
         "kind_id": "Ftr",
@@ -60382,6 +60908,18 @@
             "color0": "Gray",
             "color1": "Gray",
             "icon": "643bdde6-98ef-4620-941f-3a3aa11077fc"
+        }, {
+            "index": 1,
+            "name": "Black",
+            "color0": "Black",
+            "color1": "Black",
+            "icon": "b9b82448-8110-4e95-b231-9aaea6173cc6"
+        }, {
+            "index": 2,
+            "name": "White",
+            "color0": "White",
+            "color1": "White",
+            "icon": "f1ce0a75-089e-42d9-a031-acc329fbb659"
         }],
         "from": "other",
         "shop_remakable": true,
@@ -63059,11 +63597,53 @@
         "refabric_pattern0_color0": "None",
         "refabric_pattern0_color1": "Blue",
         "rebody_pattern": [{
+            "index": 5,
+            "name": "Orange",
+            "color0": "Orange",
+            "color1": "White",
+            "icon": "2e477999-7a50-4a21-912d-83a23810eede"
+        }, {
+            "index": 0,
+            "name": "Red",
+            "color0": "Red",
+            "color1": "White",
+            "icon": "cd615f87-25f1-4823-a48a-1f4c98b01e12"
+        }, {
+            "index": 1,
+            "name": "Yellow",
+            "color0": "Yellow",
+            "color1": "White",
+            "icon": "af08dbb2-c67f-4df0-9a3c-230118159683"
+        }, {
+            "index": 2,
+            "name": "Green",
+            "color0": "Green",
+            "color1": "White",
+            "icon": "c19e1112-7149-4734-b682-152bf56b897a"
+        }, {
+            "index": 3,
+            "name": "Blue",
+            "color0": "Blue",
+            "color1": "White",
+            "icon": "580e6002-ef88-4ba4-968e-a0ef06ba8f04"
+        }, {
+            "index": 4,
+            "name": "Pink",
+            "color0": "Pink",
+            "color1": "White",
+            "icon": "6999206d-18d5-43fe-b853-578750ee2567"
+        }, {
             "index": 6,
             "name": "Purple",
             "color0": "Purple",
             "color1": "White",
             "icon": "1c2893dc-681a-4314-9c61-29f77e11a9ed"
+        }, {
+            "index": 7,
+            "name": "Brown",
+            "color0": "Brown",
+            "color1": "Beige",
+            "icon": "ccadeb9a-60ea-452f-a8ba-21af7baffbcf"
         }],
         "from": "other",
         "shop_remakable": true,
@@ -64858,6 +65438,71 @@
         "small_genre": "Shelf",
         "is_tool_category": false
     }, {
+        "unique_id": 13516,
+        "label": "Amazing machine",
+        "kind_id": "Ftr",
+        "price": 140000,
+        "catalog_type": "Sale",
+        "item_size_id": "2x1",
+        "ui_category": "Floor",
+        "item_fossil_set_id": 0,
+        "hha_theme": 0,
+        "can_sell": 1,
+        "remakable": false,
+        "rebody_pattern": [{
+            "index": 2,
+            "name": "Black",
+            "color0": "Black",
+            "color1": "Gray",
+            "icon": "43953bf8-0cd9-4b6a-8afb-e9f0ca267a6a"
+        }, {
+            "index": 0,
+            "name": "Silver",
+            "color0": "Gray",
+            "color1": "Black",
+            "icon": "d53b79dd-e1d0-408f-b437-186482bcb020"
+        }, {
+            "index": 1,
+            "name": "White",
+            "color0": "White",
+            "color1": "Gray",
+            "icon": "0f13c58a-7d71-4096-a6ee-a4b2341098b7"
+        }, {
+            "index": 3,
+            "name": "Green",
+            "color0": "Green",
+            "color1": "Gray",
+            "icon": "d42ebc76-064e-47b2-a115-a855bb009be7"
+        }, {
+            "index": 4,
+            "name": "Blue",
+            "color0": "Blue",
+            "color1": "Brown",
+            "icon": "2f0bcf11-f47c-4175-b125-5bd5ece2564e"
+        }, {
+            "index": 5,
+            "name": "Red",
+            "color0": "Red",
+            "color1": "Black",
+            "icon": "ef4f4a85-b3c9-4149-bd2d-25cc8e927cc6"
+        }, {
+            "index": 6,
+            "name": "Yellow",
+            "color0": "Yellow",
+            "color1": "Black",
+            "icon": "545e7beb-a097-49c0-9f03-e765f74c72f9"
+        }, {
+            "index": 7,
+            "name": "Damaged",
+            "color0": "Gray",
+            "color1": "Black",
+            "icon": "157f84a7-6824-4a85-9c29-3fbb73c9e1a5"
+        }],
+        "from": "other",
+        "shop_remakable": true,
+        "small_genre": "FacilityGoods",
+        "is_tool_category": false
+    }, {
         "unique_id": 13517,
         "label": "Unknown machine",
         "kind_id": "Ftr",
@@ -64916,11 +65561,53 @@
         "can_sell": 1,
         "remakable": false,
         "rebody_pattern": [{
+            "index": 7,
+            "name": "Light blue",
+            "color0": "LightBlue",
+            "color1": "White",
+            "icon": "2e1a149f-dc8e-4246-b271-98cc9edb9aea"
+        }, {
             "index": 0,
             "name": "Black & red",
             "color0": "Black",
             "color1": "Red",
             "icon": "03141a48-323c-4fde-a989-063e63ecc83f"
+        }, {
+            "index": 1,
+            "name": "Black & orange",
+            "color0": "Black",
+            "color1": "Orange",
+            "icon": "96a9d631-26f9-4605-ad46-402df5376a96"
+        }, {
+            "index": 2,
+            "name": "Black & green",
+            "color0": "Black",
+            "color1": "Green",
+            "icon": "dde79f0d-2036-4345-8fa8-94b55f8be537"
+        }, {
+            "index": 3,
+            "name": "Black & blue",
+            "color0": "Black",
+            "color1": "Blue",
+            "icon": "7a07355a-386e-48d1-b3f1-84404a5561ca"
+        }, {
+            "index": 4,
+            "name": "Black",
+            "color0": "Black",
+            "color1": "Gray",
+            "icon": "ddfea74f-c194-4ad3-b3db-ad2a65efd468"
+        }, {
+            "index": 5,
+            "name": "White",
+            "color0": "White",
+            "color1": "Black",
+            "icon": "62a977cb-0f2a-46f2-a3d1-c32206348169"
+        }, {
+            "index": 6,
+            "name": "Pink",
+            "color0": "Pink",
+            "color1": "White",
+            "icon": "b04b6918-d07c-46e5-9b31-3e9c5d6b24c9"
         }],
         "from": "other",
         "shop_remakable": true,
@@ -64987,6 +65674,48 @@
             "color0": "LightBlue",
             "color1": "White",
             "icon": "e7e23ad2-07e7-4759-bee8-4f65c69d39a0"
+        }, {
+            "index": 0,
+            "name": "Black & red",
+            "color0": "Black",
+            "color1": "Red",
+            "icon": "c3b430f9-b68c-4e1d-ab74-28fbdb3b1227"
+        }, {
+            "index": 1,
+            "name": "Black & orange",
+            "color0": "Black",
+            "color1": "Orange",
+            "icon": "27d65958-6025-4122-82db-bb34d93ab268"
+        }, {
+            "index": 2,
+            "name": "Black & green",
+            "color0": "Black",
+            "color1": "Green",
+            "icon": "be292868-c450-4b67-959c-985d925673a7"
+        }, {
+            "index": 3,
+            "name": "Black & blue",
+            "color0": "Black",
+            "color1": "Blue",
+            "icon": "3a25675b-5515-4279-9fa9-debae28fc0db"
+        }, {
+            "index": 4,
+            "name": "Black",
+            "color0": "Black",
+            "color1": "Gray",
+            "icon": "a9187a87-c0c2-4fb6-a24d-f6a6704e6a2d"
+        }, {
+            "index": 5,
+            "name": "White",
+            "color0": "White",
+            "color1": "Black",
+            "icon": "4de1bad5-db89-4e13-96e0-3b9627c7a3b0"
+        }, {
+            "index": 6,
+            "name": "Pink",
+            "color0": "Pink",
+            "color1": "White",
+            "icon": "266e82cf-64fa-47f7-a505-4b0dac88324c"
         }],
         "from": "other",
         "shop_remakable": true,
@@ -65267,6 +65996,35 @@
         "from": "other",
         "shop_remakable": true,
         "small_genre": "HobbyGoods",
+        "is_tool_category": false
+    }, {
+        "unique_id": 13579,
+        "label": "Baobab",
+        "kind_id": "Ftr",
+        "price": 15000,
+        "catalog_type": "Sale",
+        "item_size_id": "3x1",
+        "ui_category": "Floor",
+        "item_fossil_set_id": 0,
+        "hha_theme": 0,
+        "can_sell": 1,
+        "remakable": false,
+        "rebody_pattern": [{
+            "index": 0,
+            "name": "Leafy",
+            "color0": "Brown",
+            "color1": "Green",
+            "icon": "bb6b21c5-8166-4767-b75e-2f2a0a55a388"
+        }, {
+            "index": 1,
+            "name": "Bare",
+            "color0": "Brown",
+            "color1": "Beige",
+            "icon": "071e05f4-fc5f-4a54-99ad-d7bde1df2a58"
+        }],
+        "from": "other",
+        "shop_remakable": true,
+        "small_genre": "PlantItem",
         "is_tool_category": false
     }, {
         "unique_id": 13581,
@@ -98602,6 +99360,42 @@
             "color1": "Pink",
             "color2": "Pink",
             "icon": "129e1105-deca-464e-a1ae-ae959fb724bc"
+        }, {
+            "unique_id": 11842,
+            "name": "Orange",
+            "color1": "Orange",
+            "color2": "Orange",
+            "icon": "6a2a2042-cfc7-4df1-ade4-d9b1c43a299f"
+        }, {
+            "unique_id": 11837,
+            "name": "Yellow",
+            "color1": "Yellow",
+            "color2": "Yellow",
+            "icon": "eff796c7-141d-4ce7-aff4-ae2b736243ab"
+        }, {
+            "unique_id": 11841,
+            "name": "Light green",
+            "color1": "Green",
+            "color2": "Green",
+            "icon": "efbe1650-ac5a-41fd-8043-f84ee74c3c32"
+        }, {
+            "unique_id": 11838,
+            "name": "Green",
+            "color1": "Green",
+            "color2": "Green",
+            "icon": "8708207c-7cb8-4e45-a2f2-eea6c1929e79"
+        }, {
+            "unique_id": 11840,
+            "name": "Light blue",
+            "color1": "LightBlue",
+            "color2": "LightBlue",
+            "icon": "3bb64678-c633-4319-9757-e151bc133c21"
+        }, {
+            "unique_id": 11839,
+            "name": "Blue",
+            "color1": "Blue",
+            "color2": "Blue",
+            "icon": "0c0cde46-4807-426f-87c9-59ddc92a8429"
         }],
         "fashion_theme": ["fairyland", "stage"],
         "from": "other",
