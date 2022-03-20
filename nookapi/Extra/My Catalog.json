@@ -1,5 +1,5 @@
 {
-    "updated_at": 1647726069,
+    "updated_at": 1647742017,
     "items": [{
         "unique_id": 2,
         "label": "Scenic painting",
@@ -32960,11 +32960,29 @@
             "color1": "Gray",
             "icon": "7707046c-e686-43c1-bc6c-3e4d5926bb66"
         }, {
+            "index": 0,
+            "name": "Red",
+            "color0": "Red",
+            "color1": "White",
+            "icon": "5a096c7f-fd69-4d02-abcc-f3af5a8b9b54"
+        }, {
+            "index": 1,
+            "name": "Orange",
+            "color0": "Orange",
+            "color1": "Black",
+            "icon": "dd374af9-e14f-40d7-bfbc-e07e81f9dfee"
+        }, {
             "index": 2,
             "name": "Blue",
             "color0": "Blue",
             "color1": "White",
             "icon": "303466b6-f76a-43ce-9963-5209352c793a"
+        }, {
+            "index": 3,
+            "name": "Yellow",
+            "color0": "Yellow",
+            "color1": "Gray",
+            "icon": "774068de-e283-434a-9508-652292f45057"
         }],
         "from": "other",
         "shop_remakable": true,
@@ -33283,11 +33301,29 @@
         "can_sell": 1,
         "remakable": false,
         "rebody_pattern": [{
+            "index": 3,
+            "name": "Green",
+            "color0": "Green",
+            "color1": "Yellow",
+            "icon": "1624b950-5a07-4509-9c2d-8ed546f0124e"
+        }, {
             "index": 0,
             "name": "Silver",
             "color0": "Gray",
             "color1": "LightBlue",
             "icon": "dff51017-87c8-4e9d-9f7b-9b3f499aec1c"
+        }, {
+            "index": 1,
+            "name": "Blue",
+            "color0": "LightBlue",
+            "color1": "LightBlue",
+            "icon": "e6cac223-1622-464b-ae60-8c20a30272f7"
+        }, {
+            "index": 2,
+            "name": "Pink",
+            "color0": "Pink",
+            "color1": "Pink",
+            "icon": "51890917-e664-4093-b4b3-b061662451f0"
         }],
         "from": "other",
         "shop_remakable": true,
@@ -33873,11 +33909,23 @@
         "can_sell": 1,
         "remakable": false,
         "rebody_pattern": [{
+            "index": 2,
+            "name": "White",
+            "color0": "White",
+            "color1": "Black",
+            "icon": "63bd70c9-d939-42df-9786-7be4a918fa97"
+        }, {
             "index": 0,
             "name": "Natural wood",
             "color0": "Beige",
             "color1": "Gray",
             "icon": "7cf943d2-144f-4bce-8cf3-1c2210e6dd64"
+        }, {
+            "index": 1,
+            "name": "Dark wood",
+            "color0": "Brown",
+            "color1": "Black",
+            "icon": "4821062b-b097-43db-bf06-1bf3f11f1e6c"
         }],
         "from": "other",
         "shop_remakable": true,
@@ -34804,6 +34852,12 @@
             "color0": "Black",
             "color1": "Gray",
             "icon": "d4a7c652-f7c7-4e33-97f1-f2c736753e46"
+        }, {
+            "index": 1,
+            "name": "White",
+            "color0": "White",
+            "color1": "Gray",
+            "icon": "c504c1b4-c390-4a98-92c9-0ac98028ec35"
         }, {
             "index": 2,
             "name": "Brown",
@@ -37890,6 +37944,18 @@
             "color1": "White",
             "icon": "3ef2134a-9c59-4884-9580-53cfcfd081f7"
         }, {
+            "index": 2,
+            "name": "Pink",
+            "color0": "Pink",
+            "color1": "White",
+            "icon": "f2563c09-ba2a-4bf4-9ddf-d0094fae3078"
+        }, {
+            "index": 4,
+            "name": "Green",
+            "color0": "Green",
+            "color1": "Green",
+            "icon": "6c64aca4-1e79-482e-994f-a4a503ab5185"
+        }, {
             "index": 5,
             "name": "Black",
             "color0": "Black",
@@ -39130,17 +39196,41 @@
             "color1": "Black",
             "icon": "ae9d4eca-4bb0-489a-83e0-48ce29582d1d"
         }, {
+            "index": 0,
+            "name": "Turquoise",
+            "color0": "LightBlue",
+            "color1": "Black",
+            "icon": "0ac29530-7687-41ea-b893-337a1ed9a3ab"
+        }, {
+            "index": 1,
+            "name": "Pink",
+            "color0": "Pink",
+            "color1": "Black",
+            "icon": "9ca479b4-e969-4dfa-aa7d-a24d34b3137d"
+        }, {
             "index": 2,
             "name": "Orange",
             "color0": "Orange",
             "color1": "Black",
             "icon": "410b0fc0-2368-480a-a720-47518ad3d414"
         }, {
+            "index": 3,
+            "name": "Navy blue",
+            "color0": "Blue",
+            "color1": "Black",
+            "icon": "af5a79b9-a8a8-4ad3-bc44-2e8453499aa5"
+        }, {
             "index": 4,
             "name": "Yellow",
             "color0": "Yellow",
             "color1": "Black",
             "icon": "1bee0b0e-92ef-4e2d-89ef-030468eb97a2"
+        }, {
+            "index": 6,
+            "name": "White",
+            "color0": "White",
+            "color1": "Black",
+            "icon": "076dad66-a150-462b-bb91-42e9535b72da"
         }, {
             "index": 7,
             "name": "Black",
@@ -39742,11 +39832,41 @@
             "color1": "Gray",
             "icon": "8601b26b-1b8e-42c0-b427-af0f491bae3a"
         }, {
+            "index": 0,
+            "name": "Blank",
+            "color0": "Green",
+            "color1": "Gray",
+            "icon": "8d01a58e-a6a4-4ff0-aac2-77882957735d"
+        }, {
+            "index": 1,
+            "name": "Scribbles",
+            "color0": "Green",
+            "color1": "Gray",
+            "icon": "e39a80d7-1bc5-4336-8f9c-215f757f8108"
+        }, {
             "index": 2,
             "name": "Foreign language",
             "color0": "Green",
             "color1": "Gray",
             "icon": "61aed03e-d1cd-443a-ba52-d34000021541"
+        }, {
+            "index": 3,
+            "name": "Math",
+            "color0": "Green",
+            "color1": "Gray",
+            "icon": "715623a6-aeaa-4a91-81de-3c67dacc7c53"
+        }, {
+            "index": 4,
+            "name": "Music",
+            "color0": "Green",
+            "color1": "Gray",
+            "icon": "d8fc3e6f-8f70-4b0d-9494-6eff6963293c"
+        }, {
+            "index": 6,
+            "name": "Art",
+            "color0": "Green",
+            "color1": "Gray",
+            "icon": "ab945f68-a0f7-4932-97a6-2dcbbcaf641f"
         }],
         "from": "other",
         "shop_remakable": true,
@@ -39770,6 +39890,12 @@
             "color0": "Orange",
             "color1": "Beige",
             "icon": "130e2e87-c882-445f-8a72-dc81790839e5"
+        }, {
+            "index": 1,
+            "name": "Dark brown",
+            "color0": "Brown",
+            "color1": "Gray",
+            "icon": "23aa71d0-971a-453f-87f2-9f50c1c45ee3"
         }],
         "from": "other",
         "shop_remakable": true,
@@ -39799,6 +39925,12 @@
             "color0": "Orange",
             "color1": "Beige",
             "icon": "e86d7347-6671-48a5-9718-4678f0db71c4"
+        }, {
+            "index": 1,
+            "name": "Dark brown",
+            "color0": "Brown",
+            "color1": "Gray",
+            "icon": "af872b3e-6784-49a0-a4c0-e1658c9fe48d"
         }],
         "from": "other",
         "shop_remakable": true,
@@ -41937,6 +42069,30 @@
             "color0": "White",
             "color1": "White",
             "icon": "f05ca081-34fa-48b6-bbd1-4e0488c1a7a9"
+        }, {
+            "index": 0,
+            "name": "Blue",
+            "color0": "Blue",
+            "color1": "White",
+            "icon": "dbac7462-73f0-47a1-b5c0-6fd82cdcc9f8"
+        }, {
+            "index": 2,
+            "name": "Yellow",
+            "color0": "Yellow",
+            "color1": "White",
+            "icon": "05bd2791-978f-4e32-a7e7-876a490094e7"
+        }, {
+            "index": 3,
+            "name": "Green",
+            "color0": "Green",
+            "color1": "Gray",
+            "icon": "c4fa50ce-1e47-4abc-8935-cba481b104e7"
+        }, {
+            "index": 4,
+            "name": "Red",
+            "color0": "Red",
+            "color1": "Red",
+            "icon": "99d14c44-1988-4525-9ca4-8d317c7af14b"
         }],
         "from": "other",
         "shop_remakable": true,
@@ -44598,17 +44754,35 @@
             "color1": "Beige",
             "icon": "be2e3eab-d6bd-45b1-a017-3ebedeadb455"
         }, {
+            "index": 1,
+            "name": "Brown",
+            "color0": "Red",
+            "color1": "Red",
+            "icon": "10921992-144b-4ceb-94ea-4359fb4affe0"
+        }, {
             "index": 2,
             "name": "White",
             "color0": "White",
             "color1": "White",
             "icon": "83d86f81-f5b8-4e35-a2fa-c47d1b23181c"
         }, {
+            "index": 4,
+            "name": "Blue",
+            "color0": "Blue",
+            "color1": "Blue",
+            "icon": "fc0fc396-5121-40b2-a37b-942b024e65c1"
+        }, {
             "index": 5,
             "name": "Orange",
             "color0": "Orange",
             "color1": "Orange",
             "icon": "f7155d36-a2e3-4cd9-a06b-bb91a0d538db"
+        }, {
+            "index": 6,
+            "name": "Light blue",
+            "color0": "LightBlue",
+            "color1": "LightBlue",
+            "icon": "a4334cc7-f1b9-4ee6-a7da-874353cfd9bd"
         }, {
             "index": 7,
             "name": "Pink",
@@ -59219,6 +59393,24 @@
             "color0": "Red",
             "color1": "Brown",
             "icon": "ce72d98e-d18f-4f2f-a056-39663ed4afb5"
+        }, {
+            "index": 0,
+            "name": "Yellow",
+            "color0": "Yellow",
+            "color1": "Brown",
+            "icon": "af795fcf-117b-4c06-b54b-eee4dcba82a6"
+        }, {
+            "index": 1,
+            "name": "Green",
+            "color0": "Green",
+            "color1": "Brown",
+            "icon": "1ffef134-ee64-45c2-bfcc-f66b5b748eb3"
+        }, {
+            "index": 3,
+            "name": "Gray",
+            "color0": "Gray",
+            "color1": "Brown",
+            "icon": "f05a86a2-7e91-4cb0-b2c5-6915996b574c"
         }],
         "from": "other",
         "shop_remakable": true,
@@ -60505,6 +60697,42 @@
             "color1": "White",
             "icon": "a4f6b614-5cdd-40e0-a755-9a381dfde1df"
         }, {
+            "index": 0,
+            "name": "White",
+            "color0": "White",
+            "color1": "White",
+            "icon": "868c81c1-3700-4d36-bfa7-c50af53ce962"
+        }, {
+            "index": 1,
+            "name": "Gray",
+            "color0": "Gray",
+            "color1": "Gray",
+            "icon": "cbe70d0c-ea9b-4a90-980d-92a9882f2466"
+        }, {
+            "index": 2,
+            "name": "Green",
+            "color0": "Green",
+            "color1": "Green",
+            "icon": "31bf0233-e14d-402d-8fbb-3918eab9cce2"
+        }, {
+            "index": 3,
+            "name": "Pink",
+            "color0": "Pink",
+            "color1": "Pink",
+            "icon": "b71a9f26-deb6-4fb8-ba72-7cbc9a19ade6"
+        }, {
+            "index": 4,
+            "name": "Berry red",
+            "color0": "Red",
+            "color1": "Red",
+            "icon": "647ab543-6f17-45cd-9ec6-c1f8fd5b3796"
+        }, {
+            "index": 5,
+            "name": "Gold",
+            "color0": "Yellow",
+            "color1": "Yellow",
+            "icon": "f0548bc6-1359-4c81-926c-c4fe652677ac"
+        }, {
             "index": 7,
             "name": "Floral print",
             "color0": "White",
@@ -60551,11 +60779,35 @@
         "can_sell": 1,
         "remakable": false,
         "rebody_pattern": [{
+            "index": 0,
+            "name": "Natural",
+            "color0": "Brown",
+            "color1": "Gray",
+            "icon": "31f463dd-dbba-45f2-bc2b-f839ed3b38e0"
+        }, {
             "index": 1,
             "name": "Light brown",
             "color0": "Beige",
             "color1": "Gray",
             "icon": "4c583245-64f1-4cb6-91a1-0bcca8f1c12d"
+        }, {
+            "index": 2,
+            "name": "Dark brown",
+            "color0": "Brown",
+            "color1": "Gray",
+            "icon": "bfd3775e-4e25-4638-b522-d7ea0291f4a9"
+        }, {
+            "index": 3,
+            "name": "White",
+            "color0": "White",
+            "color1": "Black",
+            "icon": "d388c921-8fd6-455e-a806-7229fdac2dd6"
+        }, {
+            "index": 4,
+            "name": "Black",
+            "color0": "Black",
+            "color1": "Black",
+            "icon": "a82b2339-9009-4611-8698-658947a8c0a0"
         }],
         "from": "other",
         "shop_remakable": true,
@@ -60579,6 +60831,30 @@
             "color0": "White",
             "color1": "Beige",
             "icon": "07fe345d-d37b-4363-80b5-7b05e5ff5847"
+        }, {
+            "index": 0,
+            "name": "Light gray",
+            "color0": "Gray",
+            "color1": "White",
+            "icon": "91ef09eb-0447-4654-a4b8-1951dada3b4e"
+        }, {
+            "index": 1,
+            "name": "Pink",
+            "color0": "Pink",
+            "color1": "White",
+            "icon": "0e16b01b-aa1e-45ac-9438-73e4e753f09c"
+        }, {
+            "index": 3,
+            "name": "Dark brown",
+            "color0": "Brown",
+            "color1": "Brown",
+            "icon": "89fcec6f-b0f5-4667-b417-2815d5235d58"
+        }, {
+            "index": 4,
+            "name": "White",
+            "color0": "White",
+            "color1": "White",
+            "icon": "d4a06ba5-7751-4ef7-a227-f2cd919f7f7a"
         }, {
             "index": 5,
             "name": "Natural wood",
@@ -60971,6 +61247,30 @@
             "color0": "Colorful",
             "color1": "Colorful",
             "icon": "91354217-1614-4b9c-af69-10038b43c9fc"
+        }, {
+            "index": 0,
+            "name": "Light wood",
+            "color0": "Beige",
+            "color1": "Colorful",
+            "icon": "a1905932-9026-4790-8366-cfc319b4b65c"
+        }, {
+            "index": 1,
+            "name": "Natural wood",
+            "color0": "Beige",
+            "color1": "Colorful",
+            "icon": "42c137bb-d25c-45eb-abba-cdd0df8042fa"
+        }, {
+            "index": 2,
+            "name": "Dark wood",
+            "color0": "Brown",
+            "color1": "Colorful",
+            "icon": "267a9551-35e4-4ba7-9516-b20c5665375e"
+        }, {
+            "index": 3,
+            "name": "Pastel",
+            "color0": "White",
+            "color1": "Colorful",
+            "icon": "29ed7288-3255-478e-b2fa-71bc53b403d1"
         }],
         "from": "other",
         "shop_remakable": true,
@@ -62064,6 +62364,36 @@
             "color0": "Beige",
             "color1": "Black",
             "icon": "eb1a43df-1045-4056-b2da-5e2f3e32e7a1"
+        }, {
+            "index": 1,
+            "name": "Brown",
+            "color0": "Orange",
+            "color1": "Black",
+            "icon": "194d34d8-b876-46aa-adca-14d02c5c9222"
+        }, {
+            "index": 2,
+            "name": "Rich brown",
+            "color0": "Brown",
+            "color1": "Black",
+            "icon": "7a985720-324a-4cd7-83e7-c26e350b9068"
+        }, {
+            "index": 3,
+            "name": "Black",
+            "color0": "Black",
+            "color1": "Black",
+            "icon": "1a0185de-00c6-41a0-a43a-639deec6588d"
+        }, {
+            "index": 4,
+            "name": "Red",
+            "color0": "Red",
+            "color1": "Black",
+            "icon": "a2237fa3-0689-4c78-9660-b3e7255dc47e"
+        }, {
+            "index": 5,
+            "name": "Antique",
+            "color0": "Gray",
+            "color1": "Brown",
+            "icon": "2a6faf89-2a53-4a05-a202-89bdd9b56b35"
         }],
         "from": "other",
         "shop_remakable": true,
@@ -65985,11 +66315,29 @@
             "color1": "Brown",
             "icon": "2ed85735-5d82-4f34-99cc-236173d63448"
         }, {
+            "index": 0,
+            "name": "Silver",
+            "color0": "Gray",
+            "color1": "Gray",
+            "icon": "dfbaebbd-615e-42d3-9b06-54a9bb3bc6b0"
+        }, {
             "index": 2,
             "name": "Black",
             "color0": "Black",
             "color1": "Black",
             "icon": "336526d0-45c4-41c7-b5b1-d8d8acde0a21"
+        }, {
+            "index": 3,
+            "name": "White",
+            "color0": "White",
+            "color1": "White",
+            "icon": "dd6d4649-77b1-414d-aee6-23b1c6729046"
+        }, {
+            "index": 4,
+            "name": "Rust",
+            "color0": "Brown",
+            "color1": "Brown",
+            "icon": "6c1b77f7-a1ee-48d5-ae2b-79d666ddc65c"
         }],
         "from": "other",
         "shop_remakable": true,
@@ -66432,11 +66780,53 @@
         "can_sell": 1,
         "remakable": false,
         "rebody_pattern": [{
+            "index": 2,
+            "name": "Black",
+            "color0": "Black",
+            "color1": "Gray",
+            "icon": "0c9e94b1-e271-496b-8618-9311e8f9e9bd"
+        }, {
+            "index": 0,
+            "name": "Silver",
+            "color0": "Gray",
+            "color1": "Black",
+            "icon": "1b447de3-e0fe-4889-8c48-209c8d54cdbb"
+        }, {
+            "index": 1,
+            "name": "White",
+            "color0": "White",
+            "color1": "Gray",
+            "icon": "fd69cc64-add0-4b87-95a6-2f39cc77fdcf"
+        }, {
             "index": 3,
             "name": "Green",
             "color0": "Green",
             "color1": "Brown",
             "icon": "09c53aec-b332-41ea-8494-b441a00d5391"
+        }, {
+            "index": 4,
+            "name": "Blue",
+            "color0": "Blue",
+            "color1": "Brown",
+            "icon": "3167ffb1-ac0a-4f05-bf75-ddfee39a9d5f"
+        }, {
+            "index": 5,
+            "name": "Red",
+            "color0": "Red",
+            "color1": "Black",
+            "icon": "48bd63f8-ab6c-48b5-98f6-21d1836056ce"
+        }, {
+            "index": 6,
+            "name": "Yellow",
+            "color0": "Yellow",
+            "color1": "Black",
+            "icon": "5a1cab94-109f-4dcb-98d8-f13a424fc3e3"
+        }, {
+            "index": 7,
+            "name": "Damaged",
+            "color0": "Brown",
+            "color1": "Black",
+            "icon": "c207c9d5-7e5e-4f35-9d24-23f30be7397a"
         }],
         "from": "other",
         "shop_remakable": true,
@@ -66658,6 +67048,48 @@
             "color0": "Brown",
             "color1": "Black",
             "icon": "e93f6e64-36cd-47f7-ba9d-bb731a2abee0"
+        }, {
+            "index": 0,
+            "name": "Gray",
+            "color0": "Gray",
+            "color1": "Black",
+            "icon": "f146a5eb-c810-473b-89a3-a5d519f7e4c7"
+        }, {
+            "index": 1,
+            "name": "Ivory",
+            "color0": "Beige",
+            "color1": "Orange",
+            "icon": "469fe95a-9ea4-444b-844b-224a9f2be331"
+        }, {
+            "index": 3,
+            "name": "Dark gray",
+            "color0": "Gray",
+            "color1": "Black",
+            "icon": "e21a1e14-ca01-4cf8-a539-1b6bf8d4fed7"
+        }, {
+            "index": 4,
+            "name": "Yellow",
+            "color0": "Yellow",
+            "color1": "Green",
+            "icon": "e316352b-1a46-4705-9d77-5fdb4d383891"
+        }, {
+            "index": 5,
+            "name": "Pink",
+            "color0": "Pink",
+            "color1": "Red",
+            "icon": "a724af1b-3651-4828-853a-b41933ae82c2"
+        }, {
+            "index": 6,
+            "name": "Blue",
+            "color0": "LightBlue",
+            "color1": "Blue",
+            "icon": "d0585e73-5245-44dd-bcf8-57435a4f67a2"
+        }, {
+            "index": 7,
+            "name": "Damaged",
+            "color0": "Gray",
+            "color1": "Green",
+            "icon": "5e5617c5-c0e5-4f56-9224-01bafaa0884c"
         }],
         "from": "other",
         "shop_remakable": true,
@@ -67594,6 +68026,42 @@
             "color0": "White",
             "color1": "Black",
             "icon": "58ef2e1b-b644-49eb-bb22-7687afa11f48"
+        }, {
+            "index": 0,
+            "name": "Void",
+            "color0": "Black",
+            "color1": "Gray",
+            "icon": "f8816629-c7a5-4edd-bb6c-394ad753b73d"
+        }, {
+            "index": 1,
+            "name": "Liberty",
+            "color0": "Gray",
+            "color1": "Black",
+            "icon": "5761a46a-c04a-4fdb-8cde-fec138271975"
+        }, {
+            "index": 3,
+            "name": "Passion",
+            "color0": "Red",
+            "color1": "Black",
+            "icon": "a47ae355-705c-4e61-9f22-59152835fc53"
+        }, {
+            "index": 4,
+            "name": "Ocean",
+            "color0": "Blue",
+            "color1": "Black",
+            "icon": "8ad44a68-118c-49b5-a5d4-dd5ec96e94d3"
+        }, {
+            "index": 5,
+            "name": "Grove",
+            "color0": "Green",
+            "color1": "Black",
+            "icon": "3dddd44c-1e6a-4720-b08b-70c070f1e5b0"
+        }, {
+            "index": 6,
+            "name": "Wealth",
+            "color0": "Yellow",
+            "color1": "Black",
+            "icon": "5f0802ef-87b2-4fc6-8f8e-0d9e809a5cd7"
         }],
         "from": "other",
         "shop_remakable": true,
@@ -68110,6 +68578,18 @@
         "can_sell": 1,
         "remakable": false,
         "rebody_pattern": [{
+            "index": 1,
+            "name": "Yellow",
+            "color0": "Yellow",
+            "color1": "White",
+            "icon": "9b9c81ce-c560-4452-9c23-fce461275d3f"
+        }, {
+            "index": 0,
+            "name": "Green",
+            "color0": "Green",
+            "color1": "White",
+            "icon": "7abda7bb-1b79-406f-bedc-17a720733694"
+        }, {
             "index": 2,
             "name": "Orange",
             "color0": "Orange",
@@ -69272,6 +69752,18 @@
             "color0": "Red",
             "color1": "Beige",
             "icon": "2742d098-83f6-4284-af17-bed337fc6f1f"
+        }, {
+            "index": 1,
+            "name": "Blue",
+            "color0": "Blue",
+            "color1": "Beige",
+            "icon": "b9f0ceec-b05d-4c33-921e-ee006902a478"
+        }, {
+            "index": 2,
+            "name": "Green",
+            "color0": "Green",
+            "color1": "Beige",
+            "icon": "604c5d04-4f13-4a2f-b861-b1fb471b3b21"
         }],
         "from": "collaborate",
         "shop_remakable": true,
@@ -72695,6 +73187,18 @@
         "can_sell": 1,
         "remakable": false,
         "rebody_pattern": [{
+            "index": 1,
+            "name": "Dark wood",
+            "color0": "Brown",
+            "color1": "Black",
+            "icon": "5bee7c48-5b89-4853-affe-bae6d3610165"
+        }, {
+            "index": 0,
+            "name": "Natural wood",
+            "color0": "Orange",
+            "color1": "Gray",
+            "icon": "b98e0022-6fbd-4e0b-a41d-6f362c70534c"
+        }, {
             "index": 2,
             "name": "White",
             "color0": "White",
@@ -73517,11 +74021,35 @@
         "can_sell": 1,
         "remakable": false,
         "rebody_pattern": [{
+            "index": 4,
+            "name": "Light wood",
+            "color0": "Beige",
+            "color1": "Beige",
+            "icon": "bc28935d-ded1-4a4d-a6af-c72cc60de2b4"
+        }, {
             "index": 0,
             "name": "Gray",
             "color0": "Gray",
             "color1": "Gray",
             "icon": "82b6f56a-5234-45a7-bb80-bf37b7bf75ae"
+        }, {
+            "index": 1,
+            "name": "White",
+            "color0": "White",
+            "color1": "White",
+            "icon": "634e4444-151e-4a14-99d2-71c040c15656"
+        }, {
+            "index": 2,
+            "name": "Black",
+            "color0": "Black",
+            "color1": "Black",
+            "icon": "629b365e-c469-4293-832b-b91a76e347d9"
+        }, {
+            "index": 3,
+            "name": "Dark wood",
+            "color0": "Brown",
+            "color1": "Brown",
+            "icon": "d800edb9-babd-480c-a770-e8f435fa6cab"
         }],
         "from": "other",
         "shop_remakable": true,
