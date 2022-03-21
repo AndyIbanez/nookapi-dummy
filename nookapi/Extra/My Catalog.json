@@ -1,5 +1,5 @@
 {
-    "updated_at": 1647811724,
+    "updated_at": 1647867706,
     "items": [{
         "unique_id": 2,
         "label": "Scenic painting",
@@ -21439,6 +21439,25 @@
         "remakable": false,
         "color1": "Red",
         "color2": "Blue",
+        "from": "collaborate",
+        "shop_remakable": false,
+        "small_genre": "WallSpecial",
+        "is_tool_category": false
+    }, {
+        "unique_id": 10174,
+        "label": "Pompompurin wall",
+        "kind_id": "RoomWall",
+        "price": 3000,
+        "catalog_type": "NotSee",
+        "item_size_id": "1x1",
+        "ui_category": "RoomWall",
+        "icon": "437cc352-477b-4736-86d8-e1658c1964a4",
+        "item_fossil_set_id": 0,
+        "hha_theme": 36,
+        "can_sell": 1,
+        "remakable": false,
+        "color1": "Yellow",
+        "color2": "Brown",
         "from": "collaborate",
         "shop_remakable": false,
         "small_genre": "WallSpecial",
@@ -46579,6 +46598,12 @@
             "color1": "Gray",
             "icon": "e288d4ab-e3f3-4a99-9997-67761a8c3040"
         }, {
+            "index": 3,
+            "name": "Green",
+            "color0": "Green",
+            "color1": "Gray",
+            "icon": "8e9e0ff5-a30c-4c1b-9d39-17f62d626235"
+        }, {
             "index": 4,
             "name": "Yellow",
             "color0": "Yellow",
@@ -48206,6 +48231,18 @@
             "color1": "White",
             "icon": "acdf503b-53df-45d6-b893-f75d6b1d7d8d"
         }, {
+            "index": 1,
+            "name": "Yellow",
+            "color0": "Yellow",
+            "color1": "White",
+            "icon": "ea8a4bae-cbad-4ac4-9c1c-01fc71536e9c"
+        }, {
+            "index": 2,
+            "name": "Green",
+            "color0": "Green",
+            "color1": "White",
+            "icon": "fc135490-53b7-49c4-92ae-fffe55e52c7c"
+        }, {
             "index": 3,
             "name": "Blue",
             "color0": "Blue",
@@ -48217,6 +48254,18 @@
             "color0": "Pink",
             "color1": "White",
             "icon": "445fbe6f-2729-4fb1-aa28-4b06d5e1525e"
+        }, {
+            "index": 5,
+            "name": "Ivory",
+            "color0": "Yellow",
+            "color1": "White",
+            "icon": "ca74e5ce-0027-4d12-9d5c-df50533bfedf"
+        }, {
+            "index": 6,
+            "name": "Light blue",
+            "color0": "LightBlue",
+            "color1": "White",
+            "icon": "873a19d3-5ca0-4750-be21-821448c0504a"
         }],
         "from": "other",
         "shop_remakable": true,
@@ -56947,6 +56996,12 @@
             "color0": "Gray",
             "color1": "Yellow",
             "icon": "8c0f76dd-9899-477e-8861-98657a6cf8be"
+        }, {
+            "index": 0,
+            "name": "Stacks of cash",
+            "color0": "Gray",
+            "color1": "Yellow",
+            "icon": "2ca94c38-1f0a-40d7-be9f-78199c54baf4"
         }],
         "from": "other",
         "shop_remakable": true,
@@ -61907,11 +61962,35 @@
         "can_sell": 1,
         "remakable": false,
         "rebody_pattern": [{
+            "index": 4,
+            "name": "White",
+            "color0": "White",
+            "color1": "White",
+            "icon": "760580de-d3e5-4a80-ba88-1627a9f6b741"
+        }, {
             "index": 0,
             "name": "Gold",
             "color0": "Yellow",
             "color1": "Yellow",
             "icon": "1ea32d34-ce9b-4dea-b4a6-8fc5ba70b226"
+        }, {
+            "index": 1,
+            "name": "Silver",
+            "color0": "Gray",
+            "color1": "Gray",
+            "icon": "e798a84f-ed56-44a3-a907-69f63d363ba1"
+        }, {
+            "index": 2,
+            "name": "Copper",
+            "color0": "Brown",
+            "color1": "Brown",
+            "icon": "f3384f1c-eb75-455d-abeb-7fe7fb2589cf"
+        }, {
+            "index": 3,
+            "name": "Black",
+            "color0": "Black",
+            "color1": "Black",
+            "icon": "e01572d8-d034-4435-b531-c25014f7842b"
         }],
         "from": "other",
         "shop_remakable": true,
@@ -62434,11 +62513,23 @@
         "can_sell": 1,
         "remakable": false,
         "rebody_pattern": [{
+            "index": 0,
+            "name": "Silver",
+            "color0": "Colorful",
+            "color1": "White",
+            "icon": "53706338-e611-4d86-9faf-0cd91c1fb28f"
+        }, {
             "index": 1,
             "name": "Gold",
             "color0": "Colorful",
             "color1": "Blue",
             "icon": "7fb2d232-61b8-497e-b49c-6719020a17fe"
+        }, {
+            "index": 2,
+            "name": "White",
+            "color0": "Colorful",
+            "color1": "White",
+            "icon": "f4d7d976-d043-40d7-ac34-30806586c09d"
         }],
         "from": "other",
         "shop_remakable": true,
@@ -65627,11 +65718,29 @@
         "can_sell": 1,
         "remakable": false,
         "rebody_pattern": [{
+            "index": 0,
+            "name": "Simple",
+            "color0": "Green",
+            "color1": "Green",
+            "icon": "db2825c4-07d6-4ea4-a4fe-a9c7255825a6"
+        }, {
             "index": 1,
             "name": "Cranes",
             "color0": "Green",
             "color1": "Yellow",
             "icon": "275203e6-c50f-41d9-9027-a2591cb9a43a"
+        }, {
+            "index": 2,
+            "name": "Wisteria",
+            "color0": "White",
+            "color1": "Blue",
+            "icon": "245a2f8e-b98c-4651-90a0-fa1743ab7da5"
+        }, {
+            "index": 3,
+            "name": "Gradation",
+            "color0": "LightBlue",
+            "color1": "LightBlue",
+            "icon": "67a350e1-746f-4ac9-abee-9dafa2cdb162"
         }],
         "from": "other",
         "shop_remakable": true,
@@ -65939,11 +66048,53 @@
         "refabric_pattern0_color0": "None",
         "refabric_pattern0_color1": "Blue",
         "rebody_pattern": [{
+            "index": 7,
+            "name": "Pink",
+            "color0": "Pink",
+            "color1": "White",
+            "icon": "8ff916eb-3659-4068-8c87-37d9ccabeafd"
+        }, {
             "index": 0,
             "name": "Black",
             "color0": "Black",
             "color1": "Black",
             "icon": "f58eedbb-3766-44c2-a701-bba95ef9827d"
+        }, {
+            "index": 1,
+            "name": "White",
+            "color0": "White",
+            "color1": "White",
+            "icon": "7c5118df-8a6b-42f8-9089-2d30282811c5"
+        }, {
+            "index": 2,
+            "name": "Brown",
+            "color0": "Brown",
+            "color1": "Black",
+            "icon": "b4c657fd-4a72-4a7f-b50d-503c3d3f81d8"
+        }, {
+            "index": 3,
+            "name": "Red",
+            "color0": "Red",
+            "color1": "Black",
+            "icon": "6beeee4c-0a26-46b4-8c1f-0b55f605c4e5"
+        }, {
+            "index": 4,
+            "name": "Yellow",
+            "color0": "Yellow",
+            "color1": "White",
+            "icon": "68348506-e681-4889-a068-60deeff6ec2d"
+        }, {
+            "index": 5,
+            "name": "Green",
+            "color0": "Green",
+            "color1": "Black",
+            "icon": "af36e4ea-4f2d-47f8-bf1b-f655da17f170"
+        }, {
+            "index": 6,
+            "name": "Blue",
+            "color0": "LightBlue",
+            "color1": "White",
+            "icon": "7b311b92-4ad6-4575-a410-28489e810689"
         }],
         "from": "other",
         "shop_remakable": true,
@@ -66962,11 +67113,23 @@
         "can_sell": 1,
         "remakable": false,
         "rebody_pattern": [{
+            "index": 0,
+            "name": "Brown",
+            "color0": "Brown",
+            "color1": "Brown",
+            "icon": "79ef45b1-ced2-48e1-80e0-77566ec96618"
+        }, {
             "index": 1,
             "name": "Natural",
             "color0": "Orange",
             "color1": "Orange",
             "icon": "be1bfe58-f7e9-4980-b101-8571fece2bd7"
+        }, {
+            "index": 2,
+            "name": "Black",
+            "color0": "Black",
+            "color1": "Black",
+            "icon": "61fa1b23-9134-4927-a914-a0fb99e377a5"
         }],
         "from": "other",
         "shop_remakable": true,
@@ -72483,11 +72646,23 @@
         "refabric_pattern0_color0": "None",
         "refabric_pattern0_color1": "Red",
         "rebody_pattern": [{
+            "index": 0,
+            "name": "Black",
+            "color0": "Black",
+            "color1": "Black",
+            "icon": "01df30e2-2936-445d-95fe-21ccf6817dc3"
+        }, {
             "index": 1,
             "name": "Silver",
             "color0": "Gray",
             "color1": "Gray",
             "icon": "51b294d9-fde7-493e-86fc-204439a5248b"
+        }, {
+            "index": 2,
+            "name": "White",
+            "color0": "White",
+            "color1": "White",
+            "icon": "0ec295a5-bc4b-4029-8ef1-ecbfb9bcc751"
         }],
         "from": "other",
         "shop_remakable": true,
@@ -116502,6 +116677,12 @@
             "color1": "Red",
             "color2": "Yellow",
             "icon": "0ffd483a-3cd2-4497-9707-e4fd2cf0d5e3"
+        }, {
+            "unique_id": 7304,
+            "name": "Blue",
+            "color1": "Blue",
+            "color2": "Green",
+            "icon": "e1143777-6196-4de7-b1c1-2cef77459049"
         }],
         "fashion_theme": ["sport", "outdoor"],
         "from": "other",
@@ -124915,6 +125096,75 @@
         "is_tool_category": false,
         "single_flag": true
     }, {
+        "unique_id": 13175,
+        "label": "Pompompurin hat",
+        "kind_id": "Helmet",
+        "price": 1500,
+        "catalog_type": "NotSee",
+        "item_size_id": "1x1",
+        "ui_category": "Clothes",
+        "can_sell": 1,
+        "remakable": false,
+        "variations": [{
+            "unique_id": 13175,
+            "name": "No Variations",
+            "color1": "Yellow",
+            "color2": "Brown",
+            "icon": "708bf168-3458-429d-bf07-9d8b79a95575"
+        }],
+        "fashion_theme": ["fairyland", "stage"],
+        "from": "collaborate",
+        "shop_remakable": false,
+        "small_genre": "Cap",
+        "is_tool_category": false,
+        "single_flag": true
+    }, {
+        "unique_id": 13176,
+        "label": "Pompompurin tee",
+        "kind_id": "Tops",
+        "price": 1000,
+        "catalog_type": "NotSee",
+        "item_size_id": "1x1",
+        "ui_category": "Clothes",
+        "can_sell": 1,
+        "remakable": false,
+        "variations": [{
+            "unique_id": 13176,
+            "name": "No Variations",
+            "color1": "Yellow",
+            "color2": "Brown",
+            "icon": "c0feb0a8-196e-49c8-97fc-486815efec41"
+        }],
+        "fashion_theme": ["fairyland", "daily"],
+        "from": "collaborate",
+        "shop_remakable": false,
+        "small_genre": "Tops",
+        "is_tool_category": false,
+        "single_flag": true
+    }, {
+        "unique_id": 13177,
+        "label": "Pompompurin boots",
+        "kind_id": "Shoes",
+        "price": 1400,
+        "catalog_type": "NotSee",
+        "item_size_id": "1x1",
+        "ui_category": "Clothes",
+        "can_sell": 1,
+        "remakable": false,
+        "variations": [{
+            "unique_id": 13177,
+            "name": "No Variations",
+            "color1": "Yellow",
+            "color2": "Brown",
+            "icon": "1cd3ec28-917d-424d-a8a3-4196c3ba2317"
+        }],
+        "fashion_theme": ["fairyland", "daily"],
+        "from": "collaborate",
+        "shop_remakable": false,
+        "small_genre": "Shoes",
+        "is_tool_category": false,
+        "single_flag": true
+    }, {
         "unique_id": 13215,
         "label": "Nook Inc. snorkel",
         "kind_id": "Accessory",
@@ -125162,6 +125412,29 @@
             "color1": "Pink",
             "color2": "White",
             "icon": "97019a8d-865a-408c-b277-1e4e40b010ec"
+        }],
+        "fashion_theme": ["fairyland", "daily"],
+        "from": "collaborate",
+        "shop_remakable": false,
+        "small_genre": "OnePiece",
+        "is_tool_category": false,
+        "single_flag": true
+    }, {
+        "unique_id": 13486,
+        "label": "Pompompurin outfit",
+        "kind_id": "OnePiece",
+        "price": 2400,
+        "catalog_type": "NotSee",
+        "item_size_id": "1x1",
+        "ui_category": "Clothes",
+        "can_sell": 1,
+        "remakable": false,
+        "variations": [{
+            "unique_id": 13486,
+            "name": "No Variations",
+            "color1": "Yellow",
+            "color2": "Brown",
+            "icon": "7ea9af68-1cc8-43a9-b5f1-e27c7dd34afc"
         }],
         "fashion_theme": ["fairyland", "daily"],
         "from": "collaborate",
@@ -125963,6 +126236,70 @@
                 "flag": "8df0a410-6bcd-4520-9926-e57f2ef02c4e"
             }]
         }
+    }, {
+        "unique_id": 14383,
+        "label": "Dance shoes",
+        "kind_id": "Shoes",
+        "price": 1200,
+        "catalog_type": "Sale",
+        "item_size_id": "1x1",
+        "ui_category": "Clothes",
+        "can_sell": 1,
+        "remakable": false,
+        "variations": [{
+            "unique_id": 14383,
+            "name": "Silver",
+            "color1": "Gray",
+            "color2": "Gray",
+            "icon": "10c50014-b51a-4c83-b403-3ee4134d3871"
+        }, {
+            "unique_id": 14263,
+            "name": "Black",
+            "color1": "Black",
+            "color2": "Black",
+            "icon": "7d4f1b03-1377-4c87-a4f3-bfee203494bc"
+        }, {
+            "unique_id": 14385,
+            "name": "Pink",
+            "color1": "Pink",
+            "color2": "Pink",
+            "icon": "5cb4e565-248d-41e1-8848-d50f79c546f2"
+        }, {
+            "unique_id": 14382,
+            "name": "Orange",
+            "color1": "Orange",
+            "color2": "Orange",
+            "icon": "23483e10-1ac4-4817-8607-03b0a149a65c"
+        }, {
+            "unique_id": 14381,
+            "name": "Gold",
+            "color1": "Yellow",
+            "color2": "Yellow",
+            "icon": "75299f54-c402-4bc4-bedb-5ed9e57748d3"
+        }, {
+            "unique_id": 14386,
+            "name": "Green",
+            "color1": "Green",
+            "color2": "Green",
+            "icon": "82aead68-f775-4cc3-9e26-3f04785e970f"
+        }, {
+            "unique_id": 14384,
+            "name": "Blue",
+            "color1": "Blue",
+            "color2": "Blue",
+            "icon": "b38eb6ae-0932-4007-af09-6c8c0e632887"
+        }, {
+            "unique_id": 14387,
+            "name": "Purple",
+            "color1": "Purple",
+            "color2": "Purple",
+            "icon": "dc01460a-b0a6-47a6-a1bf-ddcc21420a50"
+        }],
+        "fashion_theme": ["party", "stage", "fomal"],
+        "from": "other",
+        "shop_remakable": false,
+        "small_genre": "Shoes",
+        "is_tool_category": false
     }, {
         "unique_id": 14269,
         "label": "Ripped doctor's coat",
