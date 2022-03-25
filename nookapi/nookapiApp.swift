@@ -7,6 +7,39 @@
 
 import SwiftUI
 
+protocol NookAPIProviderV2: ObservableObject {
+    associatedtype ClothesProviderType: ClothesProvider
+    var clothesProvider: ClothesProviderType { get }
+}
+
+class NookAPIProviderNetworking: NookAPIProviderV2, ObservableObject {
+    var clothesProvider: some ClothesProvider {
+        return clothesProviderNetworking
+    }
+    
+    var clothesProviderNetworking: ClothesProviderNetworking
+    
+    init(clothesProvider: ClothesProviderNetworking) {
+        self.clothesProviderNetworking = clothesProvider
+    }
+}
+
+//class NookAPIProvider {
+//    private(set) var clothesProvider: some ClothesProvider
+//
+//    init(clothesProvider: ClothesProviderNetworking) {
+//        self.clothesProvider = clothesProvider
+//    }
+//}
+
+//class NookAPIProviderNetworking: NookAPIProvider {
+//    var clothesProvider: some ClothesProvider
+//
+//    init(clothesProvider: ClothesProviderNetworking) {
+//        self.clothesProvider = clothesProvider
+//    }
+//}
+
 class NookAPI<CP: ClothesProvider>: ObservableObject {
     let clothesProvider: CP
     
