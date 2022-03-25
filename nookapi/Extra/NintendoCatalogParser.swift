@@ -137,7 +137,7 @@ func jsonSerializationPrinting(file: URL) {
                     if cloth.totalVariations > 0 {
                         for clothVariation in cloth.variations {
                             var shouldAddToOwn = false
-                            for catalogItemVariation in catalogItem.variations! {
+                            for catalogItemVariation in catalogItem.variations ?? [] {
                                 if catalogItemVariation.name?.caseInsensitiveCompare(clothVariation.variation) == .orderedSame {
                                     shouldAddToOwn = true
                                     break
