@@ -207,6 +207,8 @@ func jsonSerializationPrinting(file: URL) {
                         }
                     } else {
                         itemList.append("\(item.name)")
+                        print(item.name)
+                        print(catalogItem.label ?? "")
                     }
                     ownItems[kind] = itemList
                 } else {
